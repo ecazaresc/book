@@ -1,0 +1,181 @@
+@font-face{
+    font-family: 'SegoeUI-regular';
+    src: url('../fonts/segoeui.ttf');
+}
+@font-face{
+    font-family: 'SegoeUI-bold';
+    src: url('../fonts/segoeuib.ttf');
+}
+@font-face{
+    font-family: 'SegoeUI-light';
+    src: url('../fonts/segoeuil.ttf');
+}
+@font-face{
+    font-family: 'SegoeUI-semi-bold';
+    src: url('../fonts/seguisb.ttf');
+}
+@font-face{
+    font-family: 'SegoeUI-black';
+    src: url('../fonts/seguibl.ttf');
+}
+*{
+    font-family: @regular, sans-serif;
+}
+h1:not([sub]){
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-family: @bold;
+    color: @color;
+    line-height: 2rem;
+}
+h1[sub] {
+    font-family: @black;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: @white;
+    text-align: center;
+}
+@media (min-width:@first-media) {
+    h1[sub] {
+        transform: rotate(-90deg) translateX(-3em);
+    }
+}
+@media (min-width:@second-media) {
+    h1[sub] {
+        transform: rotate(0) translateX(0);
+    }
+}
+h2 {
+    font-size: 1.5rem;
+    font-family: @semi-bold;
+    padding: 0.3em 0.8em;
+    background: @dark;
+    transition: all 0.8s;
+    display: inline-block;
+    color: @white;
+}
+[ux-title]{
+    font-size: 1.2rem;
+    color: @white;
+    text-transform: uppercase;
+    font-family: @black;
+    text-align: right;
+    span {
+        color: @white;
+        font-family: @black;
+    }
+    @media (min-width:@first-media) {
+        color: @dark;
+        font-size: 2.2rem;
+        span {
+            color: lighten(@dark,5%);
+        }
+    }
+}
+
+
+h4 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+    font-family: @semi-bold;
+    color: @color;
+}
+
+@media (min-width:@second-media){
+    h3 {
+        font-size: 2.3rem;
+    }
+}
+h1[cv]{
+    color: @white;
+    padding: 0;
+    border: none;
+    width: 6em;
+    margin-bottom: 3%;
+}
+h2[cv]{
+    font-size: 0.8rem;
+    font-family: @bold;
+    text-transform: uppercase;
+    padding-right: 3em;
+    margin: 1em 0em 0.5em 0em;
+}
+h1[ec]{
+    border-left: none;
+    padding: 0em;
+}
+[ec] {
+    p, ul {
+        font-size: 0.85rem;
+        color: @dark-gray;
+    }
+    ul {
+        padding-left: 2.2em;
+        margin: 0.5em 0em;
+    }
+    p {
+        margin-bottom: 0.4em;
+    }
+} 
+[breadcrum] {
+    flex-grow: 1;
+    a{
+        text-transform: uppercase;
+        font-family: @semi-bold;
+        &:after{
+            content: "/";
+            margin: 0px 8px;
+        }
+        &:last-child {
+            &:after{
+                content: "";
+            }   
+        }
+    }
+}
+[number] {
+    display: block;
+    font-size: 2rem;
+    font-family: @light;
+    color: @white;
+    &[ec]{
+        color: @dark;
+    }
+}
+[title-name]{
+    color:  @white;
+    text-transform: uppercase;
+    font-family: @bold;
+    font-size: 1rem;
+    white-space: nowrap;
+    
+    display: none;
+    @media (min-width:@first-media){
+        display: block;
+    }
+}
+
+
+.btn-master(@backColor,@txtColor) {
+    background-image: linear-gradient(100deg, @backColor 50%, lighten(@backColor,5%) 50%);
+    background-size: 250%;
+    background-position: 95% center;
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+    color: @txtColor;
+    text-transform: uppercase;
+    font-size: 14px;
+    border-radius: 100px;
+    padding: 8px 50px;
+    border: none;
+    cursor: pointer;
+    &:hover {
+        color: @txtColor;
+        background-position-x: 5%;
+        text-decoration: none;
+    }
+}
+[text-uppercase]{
+    text-transform: uppercase;
+}

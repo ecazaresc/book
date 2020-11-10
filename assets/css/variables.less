@@ -1,0 +1,72 @@
+
+
+// COLORS
+
+
+@color: #006147;
+@color-dark: darken(@color,10%);
+@secondary-color: #00806f;
+@gradient: linear-gradient(100deg, @color 5%, @color-dark);
+
+
+
+@white: #fff;
+@gray: #8e8e8e;
+@light-gray: lighten(@gray, 40%);
+@dark-gray: darken(@gray, 35%);
+@dark: darken(@gray, 42%);
+
+@overlay-color: rgba(0,0,0,0.6);
+@overlay-color-switch: darken(rgba(0, 97, 71, 0.9),10%);
+@overlay-color-sub: rgba(0,0,0,0.8);
+@overlay-color-dark: rgba(0,0,0,0.9);
+
+@color-mentoriis: #5a4d85;
+@color-taller: #c0e2c7;
+@color-sucream: #ffe55f;
+@color-kidzania: #ffa540;
+
+// TYPES
+
+@regular: 'SegoeUI-regular';
+@light: 'SegoeUI-light';
+@bold: 'SegoeUI-bold';
+@semi-bold: 'SegoeUI-semi-bold';
+@black: 'SegoeUI-black';
+
+
+// METRICS
+
+@first-media: 768px;
+@second-media: 992px;
+@third-media: 1024px;
+@fourth-media: 1200px;
+@nav-width: 170px;
+
+
+// ANIMATIONS
+
+.mixin-fade(@delay:0s) {
+    animation-name: fade-in;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    animation-delay: @delay;
+    opacity: 0;
+}
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+        transform: translateX(-3em);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0em);
+    }
+}
+
+
+
+// ROUTES 
+
+@imgpath: '../../../../assets/img/web-';
