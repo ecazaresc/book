@@ -1,13 +1,83 @@
+*{
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: MontserratRegular;
+  src: url('./assets/fonts/Montserrat-Regular.ttf');
+}
+@font-face {
+  font-family: MontserratBold;
+  src: url('./assets/fonts/Montserrat-Bold.ttf');
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: MontserratRegular, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+a {
+  text-decoration: none;
+  color: unset;
+}
+.link {
+  color: '#696969';
+  text-decoration: underline;
+}
+
+.fade {
+  opacity: 0;
+  transform: translateX(10px);
+  transition: all 0.5s;
+  animation: fadeInAnimation 1s;
+  animation-fill-mode: forwards;
+  z-index: 0;
+}
+.fadeOut {
+  opacity: 1;
+  transform: translateX(0px);
+  transition: all 0.5s;
+  animation: fadeInAnimationOut 1s;
+  animation-fill-mode: forwards;
+  z-index: 0;
+}
+@media (min-width:768px) {
+  .fade {
+    transform: translateX(40px);
+  }
+}
+.fade1 {
+  animation-delay: 100ms;
+}
+.fade2 {
+  animation-delay: 250ms;
+}
+.fade3 {
+  animation-delay: 400ms;
+}
+.fade4 {
+  animation-delay: 550ms;
+}
+.fade5 {
+  animation-delay: 700ms;
+}
+@keyframes fadeInAnimation {
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+@keyframes fadeInAnimationOut {
+  100% {
+    transform: translateX(40px);
+    opacity: 0;
+  }
 }

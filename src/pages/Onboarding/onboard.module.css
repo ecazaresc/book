@@ -1,0 +1,19 @@
+.image {
+    display: none;
+    width: 25vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../../assets/images/ecazaresc_lg_1.jpg');
+    padding: 30px;
+    color: white;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    white-space: normal;
+}
+@media (min-width:768px) {
+    .image {
+        display: flex;
+    }
+}
