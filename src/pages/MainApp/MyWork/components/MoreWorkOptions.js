@@ -42,6 +42,11 @@ const MoreWorkOptions = ()=>{
                     document.documentElement.scrollTop = 0
                 }}>{lang.restOfMyWork}</Box>
             <Box sx={styleButton} onClick={()=>{
+                    navigate('/home/w/book')
+                    document.body.scrollTop = 0
+                    document.documentElement.scrollTop = 0
+                }}>{lang.mywork.book.design.proyectName}</Box>
+            <Box sx={styleButton} onClick={()=>{
                 navigate('/home')
                 document.body.scrollTop = 0
                 document.documentElement.scrollTop = 0

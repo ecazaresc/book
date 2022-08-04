@@ -64,6 +64,7 @@ const ProyectContainer = ({proyect,history,name,more})=> {
                 <Box sx={{
                     width:'100vw',
                     height:'40vh',
+                    backgroundColor:'#cacaca',
                     backgroundImage:`url(${proyect.img})`,
                     backgroundSize:'cover',
                     backgroundPosition:'center',
@@ -94,12 +95,12 @@ const ProyectContainer = ({proyect,history,name,more})=> {
                                 <ProyectContent info={proyect.design} name={name} />
                             </TabPanel>
                             <TabPanel value={value} index={1}>
-                                { proyect.tab? <ProyectContent info={proyect.code} name={name} />:'' }
+                                { proyect.tab? <ProyectContent info={proyect.code} name={name} />:<Typography variant='h5' sx={{textAlign:'center'}}>{lang.noContent}</Typography> }
                             </TabPanel>
                         </Box>
                     </Grid>
                     <Grid item container xs={12} md={9} columnSpacing={3} sx={{px:3}}>
-                      <Grid item xs={12} sx={{my:2}}>
+                      <Grid item xs={12} sx={{mb:2,mt:20}}>
                         <Typography variant='h6' sx={{textAlign:'center'}}>{lang.more}</Typography>
                       </Grid>
                       <Grid item xs={12} sm>

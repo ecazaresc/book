@@ -35,6 +35,7 @@ const ProyectBox = (props)=> {
                                 md:'38vh',
                             },
                             overflow:'hidden',
+                            backgroundColor:'#cacaca',
                             backgroundImage:`url(${info.img})`,
                             backgroundSize:'cover',
                             backgroundPosition:'center',

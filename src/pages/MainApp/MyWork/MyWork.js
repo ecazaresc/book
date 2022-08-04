@@ -65,10 +65,10 @@ export const MyWork = ()=> {
                             info1={lang.mywork.siho} info2={lang.mywork.kiosk} info3={lang.mywork.anew}
                         />
                         <ProyectBoxContainer
-                            info1={lang.mywork.smonkeys} info2={lang.mywork.dentalist} info3={lang.mywork.sucream}
+                            info1={lang.mywork.book} info2={lang.mywork.smonkeys} info3={lang.mywork.dentalist}
                         />
                         <ProyectBoxContainer
-                            info1={lang.mywork.employCode} info2={lang.mywork.orange}
+                            info1={lang.mywork.employCode} info2={lang.mywork.orange} info3={lang.mywork.sucream}
                         />
                     </Grid>
                     <Grid item md={6} lg={2}>

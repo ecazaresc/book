@@ -88,6 +88,9 @@ const MyAppRoutes = (props)=> {
 
                         <Route path='/home/w/smonkeys' element={<ProyectContainer history={props.history}
                                 more={[proyect.mywork.employCode,proyect.mywork.sucream]} name={name} proyect={proyect.mywork.smonkeys} />} />
+
+                        <Route path='/home/w/book' element={<ProyectContainer history={props.history}
+                                more={[proyect.mywork.anew,proyect.mywork.dentalist]} name={name} proyect={proyect.mywork.book} />} />
                     </Route>
 
                     <Route path="/sihoApp/*" element={

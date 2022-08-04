@@ -11,6 +11,7 @@ let es = {
     email: 'Correo electrónico',
     enterApp: 'te estamos llevando a la app',
     leaveApp: 'te estamos llevando de regreso a mi book',
+    noContent: 'No hay contenido para esta sección, intenta diseño',
     categories: [
         'UX / UI',
         'Branding',
@@ -45,11 +46,11 @@ let es = {
             target:'siho',
             category:'UX - UI',
             tab: true,
-            img:'https://estebanavon.github.io/av/assets/img/models.jpg',
+            img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-siho.jpg',
             software: [
                 'Figma',
-                'Jquery',
-                'Less',
+                'React',
+                'Mui theme',
             ],
             design: {
                 proyectName: 'UX - UI Sistema SIHO',
@@ -58,6 +59,7 @@ let es = {
                     {
                         subtitle: 'Encuesta',
                         body: 'Quantitive reasearch and numercial data helps us understand the overall perception of our service.',
+                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-siho-1.jpg',
                     },
                 ],
             },
@@ -73,7 +75,7 @@ let es = {
                     },
                     {
                         subtitle: 'Repositorio GitHub',
-                        body: 'Si lo necesitas puedes darle un vistazon al repositorio de esta app.',
+                        body: 'Si lo necesitas puedes darle un vistazo al repositorio de esta app.',
                         link: 'Repositorio GitHub',
                         LinkTarget: 'https://github.com/ecazaresc/book',
                     },
@@ -91,7 +93,7 @@ let es = {
                 'Less',
             ],
             design: {
-                proyectName: 'Kidzania Kiosk',
+                proyectName: 'Quiosco de Kidzania',
                 proyectIntro:', el modulo de autoservicio es el visualmente más interesante del complejo sistema FourZ4 de Kidzania.',
                 info: [
                     {
@@ -136,7 +138,7 @@ let es = {
                 ],
             },
             code: {
-                proyectName: 'Kiosk código',
+                proyectName: 'Quiosco código',
                 proyectIntro:', este código es propiedad de Kidzania, aquí describo un poco de los retos técnicos a los que me enfrenté',
                 info: [
                     {
@@ -189,6 +191,11 @@ let es = {
                         body: 'El sistema de Avon ocupa la ya conocida familia tipográfica Montserrat.',
                         img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-anew-2.jpg',
                     },
+                    {
+                        subtitle: 'Banners',
+                        body: 'Fue necesario diseñar distintos banners que dan entrada a las secciones principales, tambien fueron diseñados por mi.',
+                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-anew-4.jpg',
+                    },
 
                 ],
             },
@@ -201,13 +208,55 @@ let es = {
                     },
                     {
                         subtitle: 'Librerias',
-                        body: 'Se ocuparon estilos personalizados, Bootstrap 4.6, Jquery y Scroll Magic.',
+                        body: 'Se ocuparon estilos personalizados en SASS, Bootstrap 4.6, Jquery y Scroll Magic.',
+                    },
+                ],
+            }
+        },
+        book: {
+            target:'book',
+            category:'UX - UI',
+            tab: true,
+            img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-book.jpg',
+            software: [
+                'Figma',
+                'React',
+                'Material Ui',
+            ],
+            design: {
+                proyectName: 'Mi book',
+                proyectIntro:', aquí encontrarás el proceso completo que requirió colocar este book en línea.',
+                info: [
+                    {
+                        subtitle: 'Wireframe',
+                        body: 'Elegí Figma como herramienta de diseño y prototipado. Con el siguiente prototipo de baja fidelidad, logré realizar las pruebas de usuario, rápido y temprano en el proceso.',
+                        link: 'Wireframes en Figma',
+                        LinkTarget: 'https://www.figma.com/proto/MPCW9VjdI5J8Wjm1HIbAcb/Portfolio-Wireframe?page-id=0%3A1&node-id=2%3A2&viewport=665%2C445%2C0.06&scaling=scale-down&starting-point-node-id=2%3A2',
+                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-figma.jpg',
                     },
                     {
-                        subtitle: 'Propósito',
-                        body: 'Es un desarrollo simple de front end, solo para fines de despliege de información.',
+                        subtitle: 'Diseño y prototipo',
+                        body: 'El siguiente pas es probar y mejorar la fidelidad del prototipo. Todo el diseño visual y gráfico está alineado a Material Design.',
+                        link: 'Prototipo en Figma',
+                        LinkTarget: 'https://www.figma.com/proto/y5zJtFks36abZwEnp4RAxH/Portfolio-Prototype?page-id=0%3A1&node-id=2%3A25&viewport=713%2C453%2C0.06&scaling=scale-down&starting-point-node-id=2%3A25',
                     },
-
+                    {
+                        subtitle: 'Color',
+                        body: 'De acuerdo a la herramienta de Material color, elegí una sombra que se adaptará a la idea original de mi book. El color primario es el cyan 900 de la libreria de Material',
+                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-book.jpg',
+                    },
+                ],
+            },
+            code: {
+                proyectName: 'Código de mi book',
+                proyectIntro:', esta app fue desarrollada con React v18 y React UI MUI.',
+                info: [
+                    {
+                        subtitle: 'Repositorio',
+                        body: 'Para exponer y mostrar el código fuente, utilicé un repositorio en GitHub, lo puedes consultar a continuación:',
+                        link: 'GitHub',
+                        LinkTarget: 'https://github.com/ecazaresc/book',
+                    }
                 ],
             }
         },
@@ -271,7 +320,7 @@ let es = {
             target:'smonkeys',
             category:'Branding',
             tab: false,
-            img:'https://estebanavon.github.io/av/assets/img/conoce-avon/ca-products-3b.jpg',
+            img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-smonkeys.jpg',
             software: [
                 'Adobe Ai',
                 'Adobe Ps',
@@ -282,12 +331,12 @@ let es = {
                     {
                         subtitle: 'Problemática',
                         body: 'Es un consultorio que integra distintas especialidades odontológicas.',
-                        img:'https://estebanavon.github.io/av/assets/img/anew/bannerPowerSerumMain.jpg',
+                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-smonkeys-1.jpg',
                     },
                     {
                         subtitle: 'Público meta',
                         body: 'El concepto se basa en una atención distinta, personal e íntima al paciente, como diferenciador en un competido mercado. La marca se posiciona a través de un concepto empático y centrado en el usuario, mismo que se ve reflejado en toda la comunicación interna y externa.',      
-                        img:'https://estebanavon.github.io/av/assets/img/anew/bannerPowerSerumMain.jpg',
+                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-smonkeys-2.jpg',
                     },
                     {
                         subtitle: 'Aplicaciones',
@@ -324,7 +373,7 @@ let es = {
                         img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-conducta-3.jpg',
                     },
                     {
-                        subtitle: '',
+                        subtitle: '12 aplicaciones',
                         body: '',
                         img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-conducta-2.jpg',
                     },

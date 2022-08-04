@@ -11,6 +11,7 @@ let en = {
     email: 'Email',
     enterApp: 'we are taking you to the app',
     leaveApp: 'we are taking you back to my book',
+    noContent: 'There is no content for this section, try design',
     categories: [
         'UX / UI',
         'Branding',
@@ -45,11 +46,11 @@ let en = {
             target:'siho',
             category:'UX - UI',
             tab: true,
-            img:'https://estebanavon.github.io/av/assets/img/models.jpg',
+            img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-siho.jpg',
             software: [
                 'Figma',
-                'Jquery',
-                'Less',
+                'React',
+                'Mui theme',
             ],
             design: {
                 proyectName: 'UX - UI SIHO System Design',
@@ -58,7 +59,7 @@ let en = {
                     {
                         subtitle: 'Survey',
                         body: 'Quantitive reasearch and numercial data helps us understand the overall perception of our service.',
-                        img: 'https://estebanavon.github.io/av/assets/img/anew/bannerPowerSerumMain.jpg',
+                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-siho-1.jpg',
                     },
                 ],
                 
@@ -77,7 +78,7 @@ let en = {
                         subtitle: 'GitHub Repository',
                         body: 'If you feel like it, you can take a look in all of this app source code.',
                         link: 'GitHub Repository',
-                        LinkTarget: 'https://www.facebook.com',
+                        LinkTarget: 'https://github.com/ecazaresc/book',
                         
                     },
                 ],
@@ -191,7 +192,11 @@ let en = {
                         body: 'Avon`s system typography is the well known Montserrat font family.',
                         img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-anew-2.jpg',
                     },
-
+                    {
+                        subtitle: 'Banners',
+                        body: 'For this site, the banner design was required, there gives entrance to the primary sections.',
+                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-anew-4.jpg',
+                    },
                 ],
             },
             code: {
@@ -203,13 +208,56 @@ let en = {
                     },
                     {
                         subtitle: 'Libraries',
-                        body: 'To accomplish this I used custome styles, Bootstrap 4.6, Jquery and Scroll Magic.',
-                    },
-                    {
-                        subtitle: 'Porpuse',
-                        body: 'This is a simple front end development, only for visualizations porpuses.',
+                        body: 'To accomplish this I used custome styles in SASS, Bootstrap 4.6, Jquery and Scroll Magic.',
                     },
 
+                ],
+            }
+        },
+        book: {
+            target:'book',
+            category:'UX - UI',
+            tab: true,
+            img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-book.jpg',
+            software: [
+                'Figma',
+                'React',
+                'Material Ui',
+            ],
+            design: {
+                proyectName: 'My book',
+                proyectIntro:', here yo can find the complete process I executed to get this ebook online.',
+                info: [
+                    {
+                        subtitle: 'Wireframing',
+                        body: 'I choose Figma as my primary prototype/design tool. With the next low fidelity prototype I could run the user test as quickly as posible.',
+                        link: 'Wireframes in Figma',
+                        LinkTarget: 'https://www.figma.com/proto/MPCW9VjdI5J8Wjm1HIbAcb/Portfolio-Wireframe?page-id=0%3A1&node-id=2%3A2&viewport=665%2C445%2C0.06&scaling=scale-down&starting-point-node-id=2%3A2',
+                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-figma.jpg',
+                    },
+                    {
+                        subtitle: 'Design and prototype',
+                        body: 'The next step is to test and improve the fidelity of this prototype. All graphic/visual design is consistent to Material Design.',
+                        link: 'Figma prototype',
+                        LinkTarget: 'https://www.figma.com/proto/y5zJtFks36abZwEnp4RAxH/Portfolio-Prototype?page-id=0%3A1&node-id=2%3A25&viewport=713%2C453%2C0.06&scaling=scale-down&starting-point-node-id=2%3A25',
+                    },
+                    {
+                        subtitle: 'Color',
+                        body: 'Acording to Material cool tool, I choosed the color shade that most adapted himself to my book idea. The primary color is cyan 900 of Material library',
+                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-book.jpg',
+                    },
+                ],
+            },
+            code: {
+                proyectName: 'My book code',
+                proyectIntro:', this app was developed with React v18 and React UI MUI.',
+                info: [
+                    {
+                        subtitle: 'Repository',
+                        body: 'In order to expose the source code I used a GitHub repository, you can visit it here:',
+                        link: 'GitHub Repository',
+                        LinkTarget: 'https://github.com/ecazaresc/book',
+                    }
                 ],
             }
         },
@@ -273,7 +321,7 @@ let en = {
             target:'smonkeys',
             category:'Branding',
             tab: false,
-            img:'https://estebanavon.github.io/av/assets/img/conoce-avon/ca-products-3b.jpg',
+            img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-smonkeys.jpg',
             software: [
                 'Adobe Ai',
                 'Adobe Ps',
@@ -284,17 +332,17 @@ let en = {
                     {
                         subtitle: 'Problem solving',
                         body: 'It is a clinic that integrates different dental specialties.',
-                        img: 'https://estebanavon.github.io/av/assets/img/anew/bannerPowerSerumMain.jpg',
+                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-smonkeys-1.jpg',
                     },
                     {
                         subtitle: 'Target',
                         body: 'The main concept is about a personalized attention like our difference maker. The brand positions itself with an empathic and user centered attention, our visuals try to reflect that.',
-                        img: 'https://estebanavon.github.io/av/assets/img/anew/bannerPowerSerumMain.jpg',
+                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-smonkeys-2.jpg',
                     },
                     {
                         subtitle: 'Aplications',
                         body: 'Stationery, signage and announcements',
-                        img: 'https://estebanavon.github.io/av/assets/img/anew/bannerPowerSerumMain.jpg',
+                        
                     },
                 ],
             },
@@ -327,7 +375,7 @@ let en = {
                         img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-conducta-3.jpg',
                     },
                     {
-                        subtitle: '',
+                        subtitle: '12 aplications',
                         body: '',
                         img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-conducta-2.jpg',
                     },
