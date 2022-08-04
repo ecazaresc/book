@@ -158,7 +158,7 @@ let es = {
             target:'anew',
             category:'UX - UI',
             tab: true,
-            img:'https://estebanavon.github.io/av/assets/img/diaDelLabialMobile.jpg',
+            img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-anew.jpg',
             software: [
                 'Invision',
                 'Jquery',
@@ -177,14 +177,17 @@ let es = {
                         body: 'Después de recibir el brief de Marketing, pude crear un diseño preliminar e refinarlo a través de las herramientas de Adobe Ai e Invision.',
                         link: 'Prototipo invision',
                         LinkTarget: 'https://estebancazares381059.invisionapp.com/public/prototype/sklwchkvj005j1l01eoigs2sr',
+                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-anew-1.jpg',
                     },
                     {
                         subtitle: 'Color',
                         body: 'La paleta de colores es consistente con el sistema de Avon y su comunicación externa. Los colores del sistema estan expresados en botones y controles.',
+                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-anew-3.jpg',
                     },
                     {
                         subtitle: 'Tipografía',
                         body: 'El sistema de Avon ocupa la ya conocida familia tipográfica Montserrat.',
+                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-anew-2.jpg',
                     },
 
                 ],

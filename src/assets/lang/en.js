@@ -160,7 +160,7 @@ let en = {
             target:'anew',
             category:'UX - UI',
             tab: true,
-            img:'https://estebanavon.github.io/av/assets/img/diaDelLabialMobile.jpg',
+            img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-anew.jpg',
             software: [
                 'Invision',
                 'Jquery',
@@ -179,14 +179,17 @@ let en = {
                         body: 'After I received the marketing brief, I created a preliminated wireframe wich was worked on to achieve a high fidelity prototype in Invision.',
                         link: 'invision prototype',
                         LinkTarget: 'https://estebancazares381059.invisionapp.com/public/prototype/sklwchkvj005j1l01eoigs2sr',
+                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-anew-1.jpg',
                     },
                     {
                         subtitle: 'Color',
                         body: 'The chromatic, is consistent with Avon`s system design and brand. System colors are voiced on buttons and controls.',
+                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-anew-3.jpg',
                     },
                     {
                         subtitle: 'Typography',
                         body: 'Avon`s system typography is the well known Montserrat font family.',
+                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-anew-2.jpg',
                     },
 
                 ],
