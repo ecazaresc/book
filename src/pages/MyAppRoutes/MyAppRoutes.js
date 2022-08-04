@@ -42,8 +42,54 @@ const MyAppRoutes = (props)=> {
         data? setLang(en):setLang(es)
         setSkipB(false)
     }
-    
-    const proyect = lang
+    const proyect = lang.mywork
+    const proyectsArray = [
+        {
+            mainProyect: proyect.siho,
+            other1:proyect.anew,
+            other2:proyect.book,
+        },
+        {
+            mainProyect: proyect.anew,
+            other1:proyect.book,
+            other2:proyect.sucream,
+        },
+        {
+            mainProyect: proyect.book,
+            other1:proyect.kiosk,
+            other2:proyect.smonkeys,
+        },
+        {
+            mainProyect: proyect.kiosk,
+            other1:proyect.book,
+            other2:proyect.anew,
+        },
+        {
+            mainProyect: proyect.smonkeys,
+            other1:proyect.sucream,
+            other2:proyect.dentalist,
+        },
+        {
+            mainProyect: proyect.sucream,
+            other1:proyect.dentalist,
+            other2:proyect.orange,
+        },
+        {
+            mainProyect: proyect.dentalist,
+            other1:proyect.sucream,
+            other2: proyect.orange,
+        },
+        {
+            mainProyect: proyect.orange,
+            other1: proyect.employCode,
+            other2:proyect.dentalist,
+        },
+        {
+            mainProyect: proyect.employCode,
+            other1:proyect.orange,
+            other2:proyect.sucream,
+        }
+    ]
     return (
         <LangContext.Provider value={lang}>
             <Box sx={{width:'100vw',minHeight:'100vh',bgcolor:'background.default'}}>
@@ -64,33 +110,14 @@ const MyAppRoutes = (props)=> {
                                                     <Home name={name} role={role} themeSend={(data)=>{props.themeSend(data)}} />
                                                 </React.Suspense>} />
                         <Route path='/home/w' element={<MyWork />} />
+                        { proyectsArray.map((proyectSelected)=>{
+                            return(
+                                <Route path={'/home/w/' + proyectSelected.mainProyect.target} element={<ProyectContainer history={props.history}
+                                    more={[proyectSelected.other1,proyectSelected.other2]} name={name} proyect={proyectSelected.mainProyect} />} />
+                            )
+                        }) }  
+                        
 
-                        <Route path='/home/w/siho' element={<ProyectContainer history={props.history}
-                                more={[proyect.mywork.anew,proyect.mywork.kiosk]} name={name} proyect={proyect.mywork.siho} />} />
-
-                        <Route path='/home/w/sucream' element={<ProyectContainer history={props.history}
-                                more={[proyect.mywork.dentalist,proyect.mywork.smonkeys]} proyect={proyect.mywork.sucream} />} />
-
-                        <Route path='/home/w/dentalist' element={<ProyectContainer history={props.history}
-                                more={[proyect.mywork.sucream,proyect.mywork.anew]} proyect={proyect.mywork.dentalist} />} />
-
-                        <Route path='/home/w/employees-code' element={<ProyectContainer history={props.history} 
-                                more={[proyect.mywork.orange,proyect.mywork.siho]} proyect={proyect.mywork.employCode} />} />
-
-                        <Route path='/home/w/orange' element={<ProyectContainer history={props.history}
-                                more={[proyect.mywork.employCode,proyect.mywork.sucream]} proyect={proyect.mywork.orange} />} />
-
-                        <Route path='/home/w/kiosk' element={<ProyectContainer history={props.history}
-                                more={[proyect.mywork.sucream,proyect.mywork.siho]} name={name} proyect={proyect.mywork.kiosk} />} />
-
-                        <Route path='/home/w/anew' element={<ProyectContainer history={props.history}
-                                more={[proyect.mywork.kiosk,proyect.mywork.sucream]} name={name} proyect={proyect.mywork.anew} />} />
-
-                        <Route path='/home/w/smonkeys' element={<ProyectContainer history={props.history}
-                                more={[proyect.mywork.employCode,proyect.mywork.sucream]} name={name} proyect={proyect.mywork.smonkeys} />} />
-
-                        <Route path='/home/w/book' element={<ProyectContainer history={props.history}
-                                more={[proyect.mywork.anew,proyect.mywork.dentalist]} name={name} proyect={proyect.mywork.book} />} />
                     </Route>
 
                     <Route path="/sihoApp/*" element={

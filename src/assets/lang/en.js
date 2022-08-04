@@ -197,6 +197,10 @@ let en = {
                         body: 'For this site, the banner design was required, there gives entrance to the primary sections.',
                         img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-anew-4.jpg',
                     },
+                    {
+                        link: 'Visit Landing Page',
+                        LinkTarget: 'https://estebanavon.github.io/av/assets/html/anew.html',
+                    },
                 ],
             },
             code: {
@@ -233,7 +237,7 @@ let en = {
                         body: 'I choose Figma as my primary prototype/design tool. With the next low fidelity prototype I could run the user test as quickly as posible.',
                         link: 'Wireframes in Figma',
                         LinkTarget: 'https://www.figma.com/proto/MPCW9VjdI5J8Wjm1HIbAcb/Portfolio-Wireframe?page-id=0%3A1&node-id=2%3A2&viewport=665%2C445%2C0.06&scaling=scale-down&starting-point-node-id=2%3A2',
-                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-figma.jpg',
+                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-figma.png',
                     },
                     {
                         subtitle: 'Design and prototype',
@@ -268,7 +272,7 @@ let en = {
             img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-sucream-1.jpg',
             software: [
                 'Adobe Ai',
-                'Adobe Ps',
+                'Adobe Psd',
                 'Strata 3d',
             ],
             design: {
@@ -294,7 +298,7 @@ let en = {
             img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-dentalist-1.jpg',
             software: [
                 'Adobe Ai',
-                'Adobe Ps',
+                'Adobe Psd',
             ],
             design: {
                 proyectName: 'Dentalist',
@@ -324,25 +328,25 @@ let en = {
             img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-smonkeys.jpg',
             software: [
                 'Adobe Ai',
-                'Adobe Ps',
+                'Adobe Psd',
             ],
             design: {
                 proyectName: 'Smonkeys',
                 info: [
                     {
                         subtitle: 'Problem solving',
-                        body: 'It is a clinic that integrates different dental specialties.',
+                        body: 'It is small but cool cafeteria, meant for milienials customers.',
                         img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-smonkeys-1.jpg',
                     },
                     {
-                        subtitle: 'Target',
-                        body: 'The main concept is about a personalized attention like our difference maker. The brand positions itself with an empathic and user centered attention, our visuals try to reflect that.',
+                        subtitle: 'Concept',
+                        body: 'Thanks to a word trick with smoothie, the owners came up with smokeys. I took the visual speech to new hights, surrounding the mokeys concept with its enviroment and a cafeteria',
                         img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-smonkeys-2.jpg',
                     },
                     {
                         subtitle: 'Aplications',
-                        body: 'Stationery, signage and announcements',
-                        
+                        body: 'We made stickers, cards, and a menu.',
+                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-smonkeys-3.jpg',
                     },
                 ],
             },
@@ -354,7 +358,7 @@ let en = {
             img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-conducta-3.jpg',
             software: [
                 'Adobe Ai',
-                'Adobe Ps',
+                'Adobe Psd',
             ],
             design: {
                 proyectName: 'Employees code',
@@ -365,8 +369,6 @@ let en = {
                         img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-conducta-1.jpg',
                     },
                     {
-                        subtitle: '',
-                        body: '',
                         img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-conducta.jpg',
                     },
                     {
@@ -375,8 +377,6 @@ let en = {
                         img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-conducta-3.jpg',
                     },
                     {
-                        subtitle: '12 aplications',
-                        body: '',
                         img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-conducta-2.jpg',
                     },
                 ],
@@ -389,7 +389,7 @@ let en = {
             img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-naranja-1.jpg',
             software: [
                 'Adobe Ai',
-                'Adobe Ps',
+                'Adobe Psd',
             ],
             design: {
                 proyectName: 'Paint your world orange',

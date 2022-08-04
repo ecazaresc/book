@@ -196,7 +196,10 @@ let es = {
                         body: 'Fue necesario diseñar distintos banners que dan entrada a las secciones principales, tambien fueron diseñados por mi.',
                         img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-anew-4.jpg',
                     },
-
+                    {
+                        link: 'Visitar el sitio',
+                        LinkTarget: 'https://estebanavon.github.io/av/assets/html/anew.html',
+                    },
                 ],
             },
             code: {
@@ -267,7 +270,7 @@ let es = {
             img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-sucream-1.jpg',
             software: [
                 'Adobe Ai',
-                'Adobe Ps',
+                'Adobe Psd',
                 'Strata 3d',
             ],
             design: {
@@ -294,7 +297,7 @@ let es = {
             img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-dentalist-1.jpg',
             software: [
                 'Adobe Ai',
-                'Adobe Ps',
+                'Adobe Psd',
             ],
             design: {
                 proyectName: 'Dentalist',
@@ -323,24 +326,25 @@ let es = {
             img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-smonkeys.jpg',
             software: [
                 'Adobe Ai',
-                'Adobe Ps',
+                'Adobe Psd',
             ],
             design: {
                 proyectName: 'Smonkeys',
                 info:[
                     {
                         subtitle: 'Problemática',
-                        body: 'Es un consultorio que integra distintas especialidades odontológicas.',
+                        body: 'Es una pequeña pero cool cafetería destinada a consumidores milenials.',
                         img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-smonkeys-1.jpg',
                     },
                     {
                         subtitle: 'Público meta',
-                        body: 'El concepto se basa en una atención distinta, personal e íntima al paciente, como diferenciador en un competido mercado. La marca se posiciona a través de un concepto empático y centrado en el usuario, mismo que se ve reflejado en toda la comunicación interna y externa.',      
+                        body: 'Gracias a un juego de palabras con smoothie, los dueños tuvieron la idea de llamar a su negocio, smonkeys. Tome el discurso visual a nuevas alturas, rodeando al simio con iconos de su ambiente y una catería',
                         img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-smonkeys-2.jpg',
                     },
                     {
                         subtitle: 'Aplicaciones',
-                        body: 'Se requirió del diseño de papelería, señalización y anuncios.',
+                        body: 'Realicé stickers, tarjetas de presentación, y un menu.',
+                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-smonkeys-3.jpg',
                     },
                 ],
             },
@@ -352,7 +356,7 @@ let es = {
             img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-conducta-3.jpg',
             software: [
                 'Adobe Ai',
-                'Adobe Ps',
+                'Adobe Psd',
             ],
             design: {
                 proyectName: 'Código de conducta',
@@ -373,8 +377,6 @@ let es = {
                         img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-conducta-3.jpg',
                     },
                     {
-                        subtitle: '12 aplicaciones',
-                        body: '',
                         img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-conducta-2.jpg',
                     },
                 ],
@@ -387,7 +389,7 @@ let es = {
             img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-naranja-1.jpg',
             software: [
                 'Adobe Ai',
-                'Adobe Ps',
+                'Adobe Psd',
             ],
             design: {
                 proyectName: 'Pinta tu mundo de naranja',
@@ -427,7 +429,7 @@ let es = {
                 'Bootstrap 4',
             ],
             button: true,
-            label:'Poyecto Siho Ux/Ui',
+            label:'Proyecto Siho Ux/Ui',
             target:'/home/w/siho'
         },
         designinfo: {

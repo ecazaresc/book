@@ -20,7 +20,7 @@ const ProyectContent = (props) => {
     let lang = useContext(LangContext)
     return (
         <Fragment>
-            <Grid container spacing={5}>
+            <Grid container spacing={6}>
                 <Grid item xs={12} md={9}>
                     <Breadcrumbs style={{marginBottom:'20px'}} className='fade fade1'>
                         <Link to={'/home'}>{lang.home}</Link> / <Link to={'/home/w'}>{lang.mywork.work}</Link> / <Typography>{info.proyectName}</Typography>
