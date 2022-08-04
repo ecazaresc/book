@@ -85,7 +85,7 @@ let es = {
             target:'kiosk',
             category:'UX - UI',
             tab: true,
-            img:'https://estebanavon.github.io/av/assets/img/diaDelLabialMobile.jpg',
+            img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/ecazaresc_lg_1.jpg',
             software: [
                 'Adobe XD',
                 'Jquery',
@@ -98,6 +98,7 @@ let es = {
                     {
                         subtitle: '¿De qué se trata?',
                         body: 'El Quiosco de KidZania se trata del módulo encargado de la venta de boletos y paquetes de comida para los usuarios. El público meta son los usuarios finales, es decir, los padres de familia visitantes de KidZania en cualquier parte del mundo. Cabe mencionar que la aplicación es multi-idioma, multimoneda y multiplataforma.',
+                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/ecazaresc_lg_1.jpg',
                     },
                     {
                         subtitle: 'Color',
