@@ -87,7 +87,7 @@ let en = {
             target:'kiosk',
             category:'UX - UI',
             tab: true,
-            img:'https://estebanavon.github.io/av/assets/img/diaDelLabialMobile.jpg',
+            img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-kiosk-5.jpg',
             software: [
                 'Adobe XD',
                 'Jquery',
@@ -100,33 +100,40 @@ let en = {
                     {
                         subtitle: 'About',
                         body: 'The Kidzania Kiosk module sells tickets and food packages to users. The target are visitors parents of KidZania, city of kids, on every corner of the world. The system and design is consistent through out languages, coins y platforms.',
+                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-kiosk-1.jpg',
                     },
                     {
                         subtitle: 'Color',
                         body: 'The chromatic, is consistent with Kidzania`s external comunication.',
                         body2: 'We achieved a consistent contrast between backgrond colors and text in each step of the process, with aesthetic purposes and as to indicate the positive or negative progress of the purchase.',
+                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-kiosk-3.jpg',
                     },
                     {
                         subtitle: 'Fix grid',
                         body: 'The design is targeting touchable, vertical and large scale monitors, even though it is a web front-end app, it wasnt neccesary a responsive development.',
+                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-kiosk-5.jpg',
                     },
                     {
                         subtitle: 'Buttons',
                         body: 'The color switch helps user keep track of failed or rollover actions. We used the main app color in the buttons, leaving tertiary colors for less important buttons on the flow (example: tabs).',
                         body2: 'The call to action size and position is key to the user navigation.',
+                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-kiosk-4.jpg',
                     },
                     {
                         subtitle: 'Flow',
                         body: 'The automatic selling process consist on choosing food, dates, times, especial tickets, reservations, etc, with the automatic Kiosk you can achive it by your own.',
                         body2: 'We used Adobe XD to test and feel the new flow, with user feedback we reduced the time for analysis and design in order to develop code the fastest as posible.',
+                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-kiosk-6.jpg',
                     },
                     {
                         subtitle: 'Typography',
                         body: 'The chosed type was Ubuntu, it helpd us with its complete font weights.',
+                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-kiosk-8.jpg',
                     },
                     {
                         subtitle: 'Iconography',
                         body: 'A simple grid let us design 150 icons, all of them consitent, simple and clear.',
+                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-kiosk-7.jpg',
                     },
                 ],
             },
@@ -168,6 +175,12 @@ let en = {
                         body: 'Anew is Avon`s top selling anti ageing brand, all the products and qualities are displayed in this site.',
                     },
                     {
+                        subtitle: 'Desing y prototype',
+                        body: 'After I received the marketing brief, I created a preliminated wireframe wich was worked on to achieve a high fidelity prototype in Invision.',
+                        link: 'invision prototype',
+                        LinkTarget: 'https://estebancazares381059.invisionapp.com/public/prototype/sklwchkvj005j1l01eoigs2sr',
+                    },
+                    {
                         subtitle: 'Color',
                         body: 'The chromatic, is consistent with Avon`s system design and brand. System colors are voiced on buttons and controls.',
                     },
@@ -201,7 +214,7 @@ let en = {
             target:'sucream',
             category:'Branding',
             tab: false,
-            img:'https://estebanavon.github.io/av/assets/img/conoce-avon/ca-products-3b.jpg',
+            img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-sucream-1.jpg',
             software: [
                 'Adobe Ai',
                 'Adobe Ps',
@@ -213,12 +226,12 @@ let en = {
                     {
                         subtitle: 'Concept',
                         body: 'Its a soft caramel brand that contains milk, much known in Mexico, just like nucita o duvalin candies. In order to compete with stablished brands, this hypotetical proyect needed lettering and a consistent ilustration for our target.',
-                        img:'https://estebanavon.github.io/av/assets/img/anew/bannerPowerSerumMain.jpg',
+                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-sucream-1.jpg',
                     },
                     {
                         subtitle: 'Target',
                         body: 'The target and competition guided heavily the look and feel of this design, the challenge here is to mantain the look and feel and still be unique',
-                        img: 'https://estebanavon.github.io/av/assets/img/anew/bannerPowerSerumMain.jpg',
+                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-sucream-2.jpg',
                     },
                 ]
             },
@@ -227,7 +240,7 @@ let en = {
             target:'dentalist',
             category:'Branding',
             tab: false,
-            img:'https://estebanavon.github.io/av/assets/img/conoce-avon/ca-products-3b.jpg',
+            img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-dentalist-1.jpg',
             software: [
                 'Adobe Ai',
                 'Adobe Ps',
@@ -238,12 +251,12 @@ let en = {
                     {
                         subtitle: 'Problem solving',
                         body: 'It is a clinic that integrates different dental specialties.',
-                        img: 'https://estebanavon.github.io/av/assets/img/anew/bannerPowerSerumMain.jpg',
+                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-dentalist-2.jpg',
                     },
                     {
                         subtitle: 'Target',
                         body: 'The main concept is about a personalized attention like our difference maker. The brand positions itself with an empathic and user centered attention, our visuals try to reflect that.',
-                        img: 'https://estebanavon.github.io/av/assets/img/anew/bannerPowerSerumMain.jpg',
+                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-dentalist-1.jpg',
                     },
                     {
                         subtitle: 'Aplications',
@@ -287,7 +300,7 @@ let en = {
             target:'employees-code',
             category:'Comunication',
             tab: false,
-            img: 'https://estebanavon.github.io/av/assets/img/anew/bannerPowerSerumMain.jpg',
+            img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-conducta-3.jpg',
             software: [
                 'Adobe Ai',
                 'Adobe Ps',
@@ -298,12 +311,22 @@ let en = {
                     {
                         subtitle: 'Whats about',
                         body: 'The SEPOMEX Institutional Culture program dictates an anual institutional values brodcast',
-                        img: 'https://estebanavon.github.io/av/assets/img/anew/bannerPowerSerumMain.jpg',
+                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-conducta-1.jpg',
+                    },
+                    {
+                        subtitle: '',
+                        body: '',
+                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-conducta.jpg',
                     },
                     {
                         subtitle: 'Aplications',
                         body: 'For this proyect, I made 8 ilustrations and a consistent overall design. Had a national scope (for more of 8,000 employees) in three different medias: emailing (internal comunication); printed on the pay stub back; and a screensaver for Institutional computers.',
-                        img: 'https://estebanavon.github.io/av/assets/img/anew/bannerPowerSerumMain.jpg',
+                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-conducta-3.jpg',
+                    },
+                    {
+                        subtitle: '',
+                        body: '',
+                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-conducta-2.jpg',
                     },
                 ],
             },
@@ -312,7 +335,7 @@ let en = {
             target:'orange',
             category:'Comunication',
             tab: false,
-            img: 'https://estebanavon.github.io/av/assets/img/anew/bannerPowerSerumMain.jpg',
+            img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-naranja-1.jpg',
             software: [
                 'Adobe Ai',
                 'Adobe Ps',
@@ -323,12 +346,12 @@ let en = {
                     {
                         subtitle: 'Concept',
                         body: 'The official Mexican Postmail Service, participates on the ONU´s General Secretary campaign: “Join to end violence torwards women and girls“ we published, through our mail, info banners about gender violence.',
-                        img: 'https://estebanavon.github.io/av/assets/img/anew/bannerPowerSerumMain.jpg',
+                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-naranja-2.jpg',
                     },
                     {
                         subtitle: 'About',
                         body: 'The proyect consist on research, synthesis and setting information hierarchy, also, 12 ilustrations and design compositions.',
-                        img: 'https://estebanavon.github.io/av/assets/img/anew/bannerPowerSerumMain.jpg',
+                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-naranja.jpg',
                     },
                 ],
             },
@@ -348,11 +371,11 @@ let en = {
             title: 'Development skills',
             bullets: [
                 'Front end / Design / Responsive Development',
-                'HTML 5, CSS 3, LESS, SASS',
-                'Bootstrap 4',
-                'Javascript, JSX, JQuery',
                 'React, Material UI',
                 'GitHub',
+                'Javascript, JSX, JQuery',
+                'HTML 5, CSS 3, LESS, SASS',
+                'Bootstrap 4',
             ],
             button: true,
             label:'Ux/Ui Proyect',
@@ -360,7 +383,7 @@ let en = {
         },
         
         designinfo: {
-            title: 'Design',
+            title: 'Some design skills',
             bullets: [
                 'Qualitive and Quantitive research',
                 'User personas',

@@ -75,8 +75,7 @@ let es = {
                         subtitle: 'Repositorio GitHub',
                         body: 'Si lo necesitas puedes darle un vistazon al repositorio de esta app.',
                         link: 'Repositorio GitHub',
-                        LinkTarget: 'https://www.facebook.com',
-                        
+                        LinkTarget: 'https://github.com/ecazaresc/book',
                     },
                 ],
             }
@@ -85,7 +84,7 @@ let es = {
             target:'kiosk',
             category:'UX - UI',
             tab: true,
-            img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/ecazaresc_lg_1.jpg',
+            img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-kiosk-5.jpg',
             software: [
                 'Adobe XD',
                 'Jquery',
@@ -98,35 +97,41 @@ let es = {
                     {
                         subtitle: '¿De qué se trata?',
                         body: 'El Quiosco de KidZania se trata del módulo encargado de la venta de boletos y paquetes de comida para los usuarios. El público meta son los usuarios finales, es decir, los padres de familia visitantes de KidZania en cualquier parte del mundo. Cabe mencionar que la aplicación es multi-idioma, multimoneda y multiplataforma.',
-                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/ecazaresc_lg_1.jpg',
+                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-kiosk-1.jpg',
                     },
                     {
                         subtitle: 'Color',
                         body: 'La cromática se alinea a la comunicación externa de KidZania, ya que es un flujo en contacto con el usuario final, se eligió la cromática primaria del brandbook de KidZania.',
                         body2: 'Se logró alternar coherentemente entre los dintintos fondos de color en cada pantalla o paso del proceso, tanto para agregar atractivo visual como para indicar el progreso positivo de la compra.',
+                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-kiosk-3.jpg',
                     },
                     {
                         subtitle: 'Retícula fija',
                         body: 'Consiste en una pantalla diseñada para monitores táctiles verticales a gran tamaño, aunque la aplicación es web no fue necesaria una adaptabilidad a dispositivos móviles.',
+                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-kiosk-5.jpg',
                     },
                     {
                         subtitle: 'Botones',
                         body: 'Los colores alternan entre un color primario y secundario, esto ayuda al usuario a relacionar acciones negativas o retroceso y diferenciarlas de positivas o de progreso. Se utilizaron los colores principales los botones, dejando colores terciarios para botones menos importantes en el flujo (por ejemplo los tabs).',
                         body2: 'El posicionamiento y tamaño de los "call to action" es clave para la navegación del usuario.',
+                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-kiosk-4.jpg',
                     },
                     {
                         subtitle: 'Flujo',
                         body: 'La venta automatizada de boletos y paquetes de comida consiste en elegir fechas, horarios, reservaciones, etc, con el quiosco puedes lograr todo esto por ti mismo.',
                         body2: 'Utilizamos Adobe XD para concretar ideas y probar con usuarios, con su retroalimnetación logramos reducir el tiempo de análisis y diseño desarrollar código lo más pronto posible.',
+                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-kiosk-6.jpg',
                     },
                     {
                         subtitle: 'Tipografía',
                         body: 'La tipografía para todo el sistema es Ubuntu, es una familia muy completa con varios pesos tipográficos',
+                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-kiosk-8.jpg',
                     },
                     {
                         subtitle: 'Iconografía',
                         body: 'Una retícula sencilla permitió diseñar y personalizar 150 iconos de manera consistente, simple y clara.',
                         body2: 'Los inconos son ocupados, tanto para reducir espacio en la interfaz gráfica como para agregar jerarquía a algún elemento. Se requirió de un esfuerzo imporante por mantener la semántica.',
+                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-kiosk-7.jpg',
                     },
                 ],
             },
@@ -168,6 +173,12 @@ let es = {
                         body: 'Anew es la marca antiedad más vendida de Avon, todos sus productos y cualidades se encuentran en este sitio.',
                     },
                     {
+                        subtitle: 'Diseño y prototipo',
+                        body: 'Después de recibir el brief de Marketing, pude crear un diseño preliminar e refinarlo a través de las herramientas de Adobe Ai e Invision.',
+                        link: 'Prototipo invision',
+                        LinkTarget: 'https://estebancazares381059.invisionapp.com/public/prototype/sklwchkvj005j1l01eoigs2sr',
+                    },
+                    {
                         subtitle: 'Color',
                         body: 'La paleta de colores es consistente con el sistema de Avon y su comunicación externa. Los colores del sistema estan expresados en botones y controles.',
                     },
@@ -201,7 +212,7 @@ let es = {
             target:'sucream',
             category:'Branding',
             tab: false,
-            img:'https://estebanavon.github.io/av/assets/img/conoce-avon/ca-products-3b.jpg',
+            img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-sucream-1.jpg',
             software: [
                 'Adobe Ai',
                 'Adobe Ps',
@@ -213,10 +224,12 @@ let es = {
                     {
                         subtitle: 'Concepto',
                         body: 'Se trata de una marca de caramelo suave con leche tipo nucita o duvalin. Fue diseñado con el propósito de competir contra estas grandes marcas, por lo tanto, fue necesario un lettering y una ilustración coherente al público meta.',
+                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-sucream-1.jpg',
                     },
                     {
                         subtitle: 'Público meta',
                         body: 'El público meta está en cierta medida condicionado a un estilo visual marcado por la competencia, el reto de diseño visual consiste en mantenerse dentro estos parámteros y lograr una identidad única y distinta.',
+                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-sucream-2.jpg',
                     },
                 ]
 
@@ -226,7 +239,7 @@ let es = {
             target:'dentalist',
             category:'Branding',
             tab: false,
-            img:'https://estebanavon.github.io/av/assets/img/conoce-avon/ca-products-3b.jpg',
+            img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-dentalist-1.jpg',
             software: [
                 'Adobe Ai',
                 'Adobe Ps',
@@ -237,12 +250,12 @@ let es = {
                     {
                         subtitle: 'Problemática',
                         body: 'Es un consultorio que integra distintas especialidades odontológicas.',
-                        img:'https://estebanavon.github.io/av/assets/img/anew/bannerPowerSerumMain.jpg',
+                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-dentalist-2.jpg',
                     },
                     {
                         subtitle: 'Público meta',
                         body: 'El concepto se basa en una atención distinta, personal e íntima al paciente, como diferenciador en un competido mercado. La marca se posiciona a través de un concepto empático y centrado en el usuario, mismo que se ve reflejado en toda la comunicación interna y externa.',      
-                        img:'https://estebanavon.github.io/av/assets/img/anew/bannerPowerSerumMain.jpg',
+                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-dentalist-1.jpg',
                     },
                     {
                         subtitle: 'Aplicaciones',
@@ -284,7 +297,7 @@ let es = {
             target:'employees-code',
             category:'Comunication',
             tab: false,
-            img: 'https://estebanavon.github.io/av/assets/img/anew/bannerPowerSerumMain.jpg',
+            img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-conducta-3.jpg',
             software: [
                 'Adobe Ai',
                 'Adobe Ps',
@@ -295,12 +308,22 @@ let es = {
                     {
                         subtitle: '¿De que se trata?',
                         body: 'El Programa de Cultura Institucional del Sepomex dicta la difusión de los valores institucionales anualmente.',
-                        img: 'https://estebanavon.github.io/av/assets/img/anew/bannerPowerSerumMain.jpg',
+                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-conducta-1.jpg',
+                    },
+                    {
+                        subtitle: '',
+                        body: '',
+                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-conducta.jpg',
                     },
                     {
                         subtitle: 'Aplicaciones',
                         body: 'Para realizar el proyecto se requierió de 8 ilustraciones y un diseño homólogo para los comunicados. El alcance es nacional (más de 8,000 empleados) en tres distintas modalidades: a través del correo electrónico (comunicación interna); impresión al reverso del recibo de nómina quincenal; y como fondo de pantalla para los monitores de la Institución.',
-                        img: 'https://estebanavon.github.io/av/assets/img/anew/bannerPowerSerumMain.jpg',
+                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-conducta-3.jpg',
+                    },
+                    {
+                        subtitle: '',
+                        body: '',
+                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-conducta-2.jpg',
                     },
                 ],
             },
@@ -309,7 +332,7 @@ let es = {
             target:'orange',
             category:'Comunication',
             tab: false,
-            img: 'https://estebanavon.github.io/av/assets/img/anew/bannerPowerSerumMain.jpg',
+            img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-naranja-1.jpg',
             software: [
                 'Adobe Ai',
                 'Adobe Ps',
@@ -320,12 +343,12 @@ let es = {
                     {
                         subtitle: 'Concepto',
                         body: 'El Servicio Postal Mexicano, participa en la campaña del Secretario General de la ONU: “Únete para poner fin a la violencia contra las mujeres y las niñas“ publicando, a través de correo electrónico, carteles informativos sobre la violencia de género.',
-                        img: 'https://estebanavon.github.io/av/assets/img/anew/bannerPowerSerumMain.jpg',
+                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-naranja-2.jpg',
                     },
                     {
                         subtitle: '¿De que se trata?',
                         body: 'El proyecto consiste en investigación, síntesis y jerarquización de la información, además, 12 ilustraciones y composiciónes de diseño para los comunicados.',
-                        img: 'https://estebanavon.github.io/av/assets/img/anew/bannerPowerSerumMain.jpg',
+                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-naranja.jpg',
                     },
                 ],
             },
@@ -345,18 +368,18 @@ let es = {
             title: 'Habilidades de desarrollo',
             bullets: [
                 'Front end / Diseño y desarrollo Responsivo',
-                'HTML 5, CSS 3, LESS, SASS',
-                'Bootstrap 4',
-                'Javascript, JSX, JQuery',
                 'React, Material UI',
                 'GitHub',
+                'Javascript, JSX, JQuery',
+                'HTML 5, CSS 3, LESS, SASS',
+                'Bootstrap 4',
             ],
             button: true,
             label:'Poyecto Siho Ux/Ui',
             target:'/home/w/siho'
         },
         designinfo: {
-            title: 'Diseño',
+            title: 'Algunas habilidades de Diseño',
             bullets: [
                 'Investigación de datos cualitativos y cuantitativos',
                 'User personas',

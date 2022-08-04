@@ -72,22 +72,22 @@ const MyAppRoutes = (props)=> {
                                 more={[proyect.mywork.dentalist,proyect.mywork.smonkeys]} proyect={proyect.mywork.sucream} />} />
 
                         <Route path='/home/w/dentalist' element={<ProyectContainer history={props.history}
-                                more={[proyect.mywork.sucream,proyect.mywork.smonkeys]} proyect={proyect.mywork.dentalist} />} />
+                                more={[proyect.mywork.sucream,proyect.mywork.anew]} proyect={proyect.mywork.dentalist} />} />
 
                         <Route path='/home/w/employees-code' element={<ProyectContainer history={props.history} 
                                 more={[proyect.mywork.orange,proyect.mywork.siho]} proyect={proyect.mywork.employCode} />} />
 
                         <Route path='/home/w/orange' element={<ProyectContainer history={props.history}
-                                more={[proyect.mywork.employCode,proyect.mywork.siho]} proyect={proyect.mywork.orange} />} />
+                                more={[proyect.mywork.employCode,proyect.mywork.sucream]} proyect={proyect.mywork.orange} />} />
 
                         <Route path='/home/w/kiosk' element={<ProyectContainer history={props.history}
-                                more={[proyect.mywork.anew,proyect.mywork.siho]} name={name} proyect={proyect.mywork.kiosk} />} />
+                                more={[proyect.mywork.sucream,proyect.mywork.siho]} name={name} proyect={proyect.mywork.kiosk} />} />
 
                         <Route path='/home/w/anew' element={<ProyectContainer history={props.history}
-                                more={[proyect.mywork.siho,proyect.mywork.kiosk]} name={name} proyect={proyect.mywork.anew} />} />
+                                more={[proyect.mywork.kiosk,proyect.mywork.sucream]} name={name} proyect={proyect.mywork.anew} />} />
 
                         <Route path='/home/w/smonkeys' element={<ProyectContainer history={props.history}
-                                more={[proyect.mywork.dentalist,proyect.mywork.sucream]} name={name} proyect={proyect.mywork.smonkeys} />} />
+                                more={[proyect.mywork.employCode,proyect.mywork.sucream]} name={name} proyect={proyect.mywork.smonkeys} />} />
                     </Route>
 
                     <Route path="/sihoApp/*" element={

@@ -13,6 +13,7 @@ import FacebookIcon from '@mui/icons-material/Facebook'
 import InstagramIcon from '@mui/icons-material/Instagram'
 import EmailIcon from '@mui/icons-material/Email'
 import MoreWorkOptions from './MoreWorkOptions'
+import LaunchIcon from '@mui/icons-material/Launch'
 
 const ProyectContent = (props) => {
     let info = props.info
@@ -36,10 +37,10 @@ const ProyectContent = (props) => {
                     { info.info.map((item,index)=>{
                         return (
                             <Box key={item.subtitle} sx={{mt:6}}>
-                                { item.buttonLabel? <Link to={item.buttonTarget}><Button sx={{mb:3}} className='fade fade1' variant='contained'>{ item.buttonLabel }</Button></Link>:null }
+                                { item.buttonLabel? <Link to={item.buttonTarget}><Button startIcon={<LaunchIcon />} sx={{mb:3}} className='fade fade1' variant='contained'>{ item.buttonLabel }</Button></Link>:null }
                                 <Typography variant='subtitle1' className='fade fade2' >{item.subtitle}</Typography>
                                 <Typography variant='body1' className='fade fade3' sx={{mt:2}}>{item.body}</Typography>
-                                { item.link? <a href={item.LinkTarget} target='_blank' rel="noreferrer"><Button sx={{mt:2}} variant='outlined'>{ item.link }</Button></a>:null }
+                                { item.link? <a href={item.LinkTarget} target='_blank' rel="noreferrer"><Button startIcon={<LaunchIcon />} sx={{mt:2}} variant='outlined'>{ item.link }</Button></a>:null }
                                 { item.img? <img style={{width:'100%',minHeight:10,backgroundColor:'#eee',marginTop:'20px'}} className='fade fade3' src={item.img} alt={item.img} />:null }
                                 { item.body2? <Typography variant='body1' className='fade fade3' sx={{mt:2}}>{item.body2}</Typography>:null }
                                 { item.img2? <img style={{width:'100%',minHeight:10,backgroundColor:'#eee',marginTop:'20px'}} className='fade fade3' src={item.img2} alt={item.img2} />:null }

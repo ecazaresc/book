@@ -19,6 +19,9 @@ import { LangContext } from '../../MyAppRoutes/MyAppRoutes'
 import style from './home.module.css'
 import image from '../../../assets/images/ecazaresc_lg_2.jpg'
 import cv from '../../../assets/images/ecazaresc_lg_2.jpg'
+import WhatsAppIcon from '@mui/icons-material/WhatsApp'
+import EmailIcon from '@mui/icons-material/Email'
+import DownloadIcon from '@mui/icons-material/Download'
 
 const Home = (props)=> {
     const lang = useContext(LangContext)
@@ -136,11 +139,12 @@ const Home = (props)=> {
                     <Submenu info={infoPosition[2]}/>
                     <Submenu info={infoPosition[3]}/>
                     <Submenu info={infoPosition[4]}/>
+                    <Submenu info={infoPosition[5]}/>
                     
                     <Stack sx={{maxWidth:'320px'}} spacing={2}>
-                        <Button variant='contained'><a href={cv} download='Esteban_Cazares_Cruz_Cv'>{lang.homeText.downloadCv}</a></Button>
-                        <Button variant='outlined'><a href='mailto:ecazaresc@yahoo.com.mx'>{lang.homeText.sendEmail}</a></Button>
-                        <Button variant='outlined'><a rel="noreferrer" target="_blank" href='https://wa.me/5549386144'>{lang.homeText.sendWa}</a></Button>
+                        <Button startIcon={<DownloadIcon />} variant='contained'><a href={cv} download='Esteban_Cazares_Cruz_Cv'>{lang.homeText.downloadCv}</a></Button>
+                        <Button startIcon={<EmailIcon />} variant='outlined'><a href='mailto:ecazaresc@yahoo.com.mx'>{lang.homeText.sendEmail}</a></Button>
+                        <Button startIcon={<WhatsAppIcon />} variant='outlined'><a rel="noreferrer" target="_blank" href='https://wa.me/5549386144'>{lang.homeText.sendWa}</a></Button>
                     </Stack>
                 </Grid>
                 <Grid item xs={12}>

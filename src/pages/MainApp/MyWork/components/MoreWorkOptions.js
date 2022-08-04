@@ -6,6 +6,7 @@ import {
 } from '@mui/material'
 import { useNavigate } from 'react-router-dom'
 import { LangContext } from "../../../MyAppRoutes/MyAppRoutes"
+import HomeIcon from '@mui/icons-material/Home'
 
 const MoreWorkOptions = ()=>{
     let lang = useContext(LangContext)
@@ -14,6 +15,7 @@ const MoreWorkOptions = ()=>{
     let styleButton = {
         fontFamily:'MontserratBold',
         color:'primary.main',
+        textTransform: 'uppercase',
         my:3,
         cursor:'pointer',
     }
@@ -43,7 +45,7 @@ const MoreWorkOptions = ()=>{
                 navigate('/home')
                 document.body.scrollTop = 0
                 document.documentElement.scrollTop = 0
-            }}><Button variant='contained'>{lang.home}</Button></Box>
+            }}><Button startIcon={<HomeIcon />} variant='contained'>{lang.home}</Button></Box>
         </Box>
     )
 }
