@@ -112,7 +112,7 @@ const MyAppRoutes = (props)=> {
                         <Route path='/home/w' element={<MyWork />} />
                         { proyectsArray.map((proyectSelected)=>{
                             return(
-                                <Route path={'/home/w/' + proyectSelected.mainProyect.target} element={<ProyectContainer history={props.history}
+                                <Route key={proyectSelected.mainProyect} path={'/home/w/' + proyectSelected.mainProyect.target} element={<ProyectContainer history={props.history}
                                     more={[proyectSelected.other1,proyectSelected.other2]} name={name} proyect={proyectSelected.mainProyect} />} />
                             )
                         }) }  

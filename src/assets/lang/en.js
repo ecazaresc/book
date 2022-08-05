@@ -59,7 +59,7 @@ let en = {
                 info: [
                     {
                         subtitle: 'Survey',
-                        body: 'Quantitative reasearch and numercial data helps us understand the overall problems of our proyect. The survey was our best tool for this purposes.',
+                        body: 'Quantitative reasearch and numercial data helped us understand the overall problems of our proyect. The survey was our best tool for this purposes.',
                         img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-siho-1.jpg',
                     },
                     {
@@ -76,11 +76,10 @@ let en = {
                     {
                         subtitle: 'Problem solving',
                         body: 'For the solving part we took those main ideas/concerns from the previous stage, to brainstorm it for solutions. To continue the proccess we choose the ones that felt better for us, our stakeholders and our users.',
-                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-siho-4.jpg',
                     },
                     {
                         subtitle: 'Wireframing',
-                        body: 'In this part we need to test our solutions as fast as posible in order to know, what works, but nost important, whats does not so we can return to the brainstorm part and build new solutions.',
+                        body: 'In this part we needed to test our solutions as fast as posible in order to know, what works, but nost important, whats does not so we can return to the brainstorm part and build new solutions.',
                         img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-siho-5.jpg',
                         link: 'Figma wireframing',
                         LinkTarget: 'https://www.figma.com/proto/OlY9927COlYC8sVdAXZX06/Siho-Wireframe?page-id=0%3A1&node-id=2%3A310&viewport=655%2C468%2C0.13&scaling=scale-down&starting-point-node-id=2%3A2',
@@ -92,12 +91,13 @@ let en = {
                     {
                         subtitle: 'Final Figma Prototype',
                         body: 'After serveral cycles of testing and design, we added more and more visual details untill we made a high fidelity prototype to hand it over to front end developers and stakeholders.',
+                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-siho-6.jpg',
                         link: 'Figma prototype',
                         LinkTarget: 'https://www.figma.com/proto/c6Fypi9qR5i1oHiM5OF6K0/Siho-Wireframe?page-id=0%3A1&node-id=1%3A61&viewport=750%2C566%2C0.44&scaling=scale-down&starting-point-node-id=1%3A719',
                     },
                     {
                         subtitle: 'Template and Design Guidelines',
-                        body: 'With all my design and code skills I can help out the development team with most front-end task. You can check out my Material Design Exercise where I develop a code based Template with components ready to use.',
+                        body: 'With all my design and code skills I helped the development team with most front-end task. You can check out my Material Design Exercise where I develop a code based Template with components ready to use.',
                         buttonLabel: 'ENTER TEST APP',
                         buttonTarget: '/transition',
                     },
