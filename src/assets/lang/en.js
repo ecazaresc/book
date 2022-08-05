@@ -47,7 +47,7 @@ let en = {
             target:'siho',
             category:'UX - UI',
             tab: true,
-            img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-siho-6.jpg',
+            img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-siho-3.jpg',
             software: [
                 'Figma',
                 'React',
@@ -228,9 +228,19 @@ let en = {
                         img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-anew-3.jpg',
                     },
                     {
-                        subtitle: 'Typography',
-                        body: 'Avon`s system typography is the well known Montserrat font family.',
+                        subtitle: 'Responsive design',
+                        body: 'For this proyect I used some own media queries but for the most part, Bootstrap 4.6. All sections of the design has there mobile version.',
                         img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-anew-2.jpg',
+                    },
+                    {
+                        subtitle: 'Grid system',
+                        body: 'This is how the flexible grid looks like for diferent screens.',
+                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-anew-5.jpg',
+                    },
+                    {
+                        subtitle: 'Typography',
+                        body: 'Montserrat sans family offers a variarity of font weights, it was my besto option for the web site.',
+                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-anew-6.jpg',
                     },
                     {
                         subtitle: 'Banners',
@@ -269,7 +279,7 @@ let en = {
                 'Material Ui',
             ],
             design: {
-                proyectName: 'My book',
+                proyectName: 'My book (proyect)',
                 proyectIntro:', here yo can find the complete process I executed to get this ebook online.',
                 info: [
                     {
@@ -286,6 +296,11 @@ let en = {
                         LinkTarget: 'https://www.figma.com/proto/y5zJtFks36abZwEnp4RAxH/Portfolio-Prototype?page-id=0%3A1&node-id=2%3A25&viewport=713%2C453%2C0.06&scaling=scale-down&starting-point-node-id=2%3A25',
                     },
                     {
+                        subtitle: 'Responsive design',
+                        body: 'With Mui Grid system its easy to accomplish a responsive website, some media queries were applied in order to get proper alignment.',
+                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-book-1.jpg',
+                    },
+                    {
                         subtitle: 'Color',
                         body: 'Acording to Material cool tool, I choosed the color shade that most adapted himself to my book idea. The primary color for light theme is cyan 900 of Material library.',
                         img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-book.jpg',
@@ -293,7 +308,7 @@ let en = {
                 ],
             },
             code: {
-                proyectName: 'My book code',
+                proyectName: 'My book code (proyect)',
                 proyectIntro:', this app was developed with React v18 and React UI MUI.',
                 info: [
                     {

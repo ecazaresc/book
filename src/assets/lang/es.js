@@ -227,9 +227,19 @@ let es = {
                         img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-anew-3.jpg',
                     },
                     {
-                        subtitle: 'Tipografía',
-                        body: 'El sistema de Avon ocupa la ya conocida familia tipográfica Montserrat.',
+                        subtitle: 'Diseño responsivo design',
+                        body: 'Para este proyecto utilicé, en su mayría Bootstrap 4.6, junto con algunos media queries propios. Todos las secciones del diseño tienen su version para dispositivos móviles.',
                         img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-anew-2.jpg',
+                    },
+                    {
+                        subtitle: 'Grid system',
+                        body: 'Así luce el sistema de retícula en distintos dispositivos.',
+                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-anew-5.jpg',
+                    },
+                    {
+                        subtitle: 'Tipografía',
+                        body: 'Por su variaedad en pesos tipográficos, la familia Montserrat fue la mejor opción para el sitio.',
+                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-anew-6.jpg',
                     },
                     {
                         subtitle: 'Banners',
@@ -267,7 +277,7 @@ let es = {
                 'Material Ui',
             ],
             design: {
-                proyectName: 'Mi book',
+                proyectName: 'Mi book (proyecto)',
                 proyectIntro:', aquí encontrarás el proceso completo que requirió colocar este book en línea.',
                 info: [
                     {
@@ -284,6 +294,11 @@ let es = {
                         LinkTarget: 'https://www.figma.com/proto/y5zJtFks36abZwEnp4RAxH/Portfolio-Prototype?page-id=0%3A1&node-id=2%3A25&viewport=713%2C453%2C0.06&scaling=scale-down&starting-point-node-id=2%3A25',
                     },
                     {
+                        subtitle: 'Diseño responsivo',
+                        body: 'Con Mui Grid system es fácil conseguir un sitio responsivo, para obtener la alineación correcta algunos media queries fueron aplicados.',
+                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-book-1.jpg',
+                    },
+                    {
                         subtitle: 'Color',
                         body: 'De acuerdo a la herramienta de Material color, elegí una sombra que se adaptará a la idea original de mi book. El color primario para la paleta clara es el cyan 900 de la libreria de Material.',
                         img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-book.jpg',
@@ -291,7 +306,7 @@ let es = {
                 ],
             },
             code: {
-                proyectName: 'Código de mi book',
+                proyectName: 'Código de mi book (proyecto)',
                 proyectIntro:', esta app fue desarrollada con React v18 y React UI MUI.',
                 info: [
                     {
