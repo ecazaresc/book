@@ -12,6 +12,7 @@ let es = {
     enterApp: 'te estamos llevando a la app',
     leaveApp: 'te estamos llevando de regreso a mi book',
     noContent: 'No hay contenido para esta sección, intenta diseño',
+    guest:'Invitado',
     categories: [
         'UX / UI',
         'Branding',
@@ -54,12 +55,51 @@ let es = {
             ],
             design: {
                 proyectName: 'UX - UI Sistema SIHO',
-                proyectIntro:', take a look on the this small and scaleable Ux process for SIHO, the platform for employees activity registration.',
+                proyectIntro:', hecha un vistazo a este escalable proceso de Ux ocupado para el rediseño de SIHO, una plataforma para registrar entrada y actividades de empleados.',
                 info: [
                     {
                         subtitle: 'Encuesta',
-                        body: 'Quantitive reasearch and numercial data helps us understand the overall perception of our service.',
+                        body: 'investigación cuantitativa y datos numericosnos ayuda a comprender la percepción sobre nuestro proyecto. La encuesta es la mejor herramienta para estos fines.',
                         img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-siho-1.jpg',
+                    },
+                    {
+                        subtitle: 'Entrevista',
+                        body: 'Cada entrevista necesita una sección de introducción, principal y de cierre. Al entrevistar, tengo preguntas preparadas que me ayudan a contestar una pregunta principal, pero siempre busco tener una platica simple y cómoda con mi entrevistado.',
+                        body2: 'Esta es una ejemplo de preguntas que nos llevan a recoger datos cualitativos.',
+                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-siho-2.jpg',
+                    },
+                    {
+                        subtitle: 'Descubrimiento de problemas',
+                        body: 'Para esta parte de la investigación usamos las affinity walls, donde reunimos importantes y similares momentos de las entrevistas y entrevistas. Esto nos ayuda a encontrar las mayores preocupaciones y problemas de la app.',
+                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-siho-3.jpg',
+                    },
+                    {
+                        subtitle: 'Solucion de problemas',
+                        body: 'Para resolver las principales preocupaciones e ideas encontrados en la fase anterior, realizamos una lluvia de ideas. De todas las soluciones elegimos las que sentimos son mejores para nosotros, los stakeholders y los usuarios.',
+                    },
+                    {
+                        subtitle: 'Wireframes',
+                        body: 'En esta sección necesitamos probar nuestras ideas lo más pronto posible para saber, que funciona, pero más importante, que no. Así podemos regresar a realizar lluvia de ideas y construir nuesvas soluciones.',
+                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-siho-5.jpg',
+                        link: 'Figma wireframes',
+                        LinkTarget: 'https://www.figma.com/proto/OlY9927COlYC8sVdAXZX06/Siho-Wireframe?page-id=0%3A1&node-id=2%3A310&viewport=655%2C468%2C0.13&scaling=scale-down&starting-point-node-id=2%3A2',
+                    },
+                    {
+                        subtitle: 'Pruebas de usabilidad',
+                        body: 'Consiste en dar al usuario una tarea específica y suficientemente dificil para realizar en el prototipo, debemos sileniosamente seguir todos los pasos de la prueba, tomar nota y realizar preguntas de seguimiento.',
+                    },
+                    {
+                        subtitle: 'Figma prototipo final',
+                        body: 'Después de varios ciclos de pruebas y diseño, podemos ir agregar detalles visuales hasta obtener un prototipo de alta fidelidad. Este es un entregable para desarrolladoresy stakeholders.',
+                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-siho-6.jpg',
+                        link: 'Prototipo en Figma',
+                        LinkTarget: 'https://www.figma.com/proto/c6Fypi9qR5i1oHiM5OF6K0/Siho-Wireframe?page-id=0%3A1&node-id=1%3A61&viewport=750%2C566%2C0.44&scaling=scale-down&starting-point-node-id=1%3A719',
+                    },
+                    {
+                        subtitle: 'Template y Lineamientos de diseño',
+                        body: 'Con mis habilidades de código puedo ayudar al equipo de desarrollo con muchas de las tareas de desarrollo front-end. Puedes revisar mi Ejercicio Material Design donde desarrollé una plantilla a base de código con componentes listos para usarse.',
+                        buttonLabel: 'entrar a app de prueba',
+                        buttonTarget: '/transition',
                     },
                 ],
             },
@@ -168,7 +208,7 @@ let es = {
             ],
             design: {
                 proyectName: 'Anew Landing Page',
-                proyectIntro:', el sitio Anew es para promoción y difusión de los productos antiedad de Avon en los mercados Mexico, Guatemala, Honduras, Panama, El Salvador y Rep. Dominicana.',
+                proyectIntro:', el sitio Anew es para promoción y difusión de los productos antiedad de Avon en los mercados México, Guatemala, Honduras, Panama, El Salvador y Rep. Dominicana.',
                 info: [
                     {
                         subtitle: 'Sobre el proyecto',
@@ -235,7 +275,7 @@ let es = {
                         body: 'Elegí Figma como herramienta de diseño y prototipado. Con el siguiente prototipo de baja fidelidad, logré realizar las pruebas de usuario, rápido y temprano en el proceso.',
                         link: 'Wireframes en Figma',
                         LinkTarget: 'https://www.figma.com/proto/MPCW9VjdI5J8Wjm1HIbAcb/Portfolio-Wireframe?page-id=0%3A1&node-id=2%3A2&viewport=665%2C445%2C0.06&scaling=scale-down&starting-point-node-id=2%3A2',
-                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-figma.jpg',
+                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-figma.png',
                     },
                     {
                         subtitle: 'Diseño y prototipo',
@@ -245,7 +285,7 @@ let es = {
                     },
                     {
                         subtitle: 'Color',
-                        body: 'De acuerdo a la herramienta de Material color, elegí una sombra que se adaptará a la idea original de mi book. El color primario es el cyan 900 de la libreria de Material',
+                        body: 'De acuerdo a la herramienta de Material color, elegí una sombra que se adaptará a la idea original de mi book. El color primario para la paleta clara es el cyan 900 de la libreria de Material.',
                         img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-book.jpg',
                     },
                 ],
@@ -337,7 +377,7 @@ let es = {
                         img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-smonkeys-1.jpg',
                     },
                     {
-                        subtitle: 'Público meta',
+                        subtitle: 'Concepto',
                         body: 'Gracias a un juego de palabras con smoothie, los dueños tuvieron la idea de llamar a su negocio, smonkeys. Tome el discurso visual a nuevas alturas, rodeando al simio con iconos de su ambiente y una catería',
                         img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-smonkeys-2.jpg',
                     },

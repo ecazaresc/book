@@ -38,8 +38,16 @@ function ResponsiveDrawer(props) {
             text:'Captura de actividades',
             target:'/sihoApp/home/capture',
         },
+        {
+            text:'Plantilla UI',
+            target:'/sihoApp/home/template',
+        },
     ]
     let menuItem2 = [
+        {
+            text:'Cerrar sesión',
+            target:'/sihoApp',
+        },
         {
             text:'Regresar a mi book',
             target:'/transition',
@@ -118,7 +126,7 @@ function ResponsiveDrawer(props) {
             <MenuIcon />
           </IconButton>
           <Typography variant="h4" sx={{position:'relative',transform:'scale(0.7)',top:'-2px'}} component="div">
-            <span>SIHO</span>
+            <b>SIHO</b>
             <span style={{fontSize:'10px', position:'absolute',bottom:'-4px',right:'-20px'}}>praxis.com</span>
           </Typography>
         </Toolbar>

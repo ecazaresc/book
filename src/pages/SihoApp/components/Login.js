@@ -14,6 +14,7 @@ import Visibility from '@mui/icons-material/Visibility'
 import VisibilityOff from '@mui/icons-material/VisibilityOff'
 import { useNavigate } from 'react-router-dom'
 import img from '../../../assets/images/ecazaresc_lg_5.jpg'
+import blue from '@mui/material/colors/blue'
 
 const Login = ({name})=>{
     let navigate = useNavigate()
@@ -71,8 +72,8 @@ const Login = ({name})=>{
                                         }
                                     }}>
                                 <Box component="div" sx={{display:'flex', justifyContent:'center',mb:6}}>
-                                    <Typography variant="h4" sx={{position:'relative',transform:'scale(1.5)',left:'-30px',width:52}} component="div">
-                                        <span>SIHO</span>
+                                    <Typography variant="h4" sx={{position:'relative',transform:'scale(1.5)',left:'-30px',width:52,color:blue[900]}} component="div">
+                                        <b>SIHO</b>
                                         <span style={{fontSize:'10px', position:'absolute',bottom:'-4px',right:'-40px'}}>praxis.com</span>
                                     </Typography>
                                 </Box> 

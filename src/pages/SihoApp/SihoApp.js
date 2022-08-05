@@ -10,6 +10,7 @@ import blue from '@mui/material/colors/blue'
 import ResponsiveDrawer from './components/ResponsiveDrawer'
 import Dashboard from './components/Dashboard'
 import Capture from './components/Capture'
+import Template from './components/Template'
 
 const theme = createTheme({
     palette: {
@@ -48,6 +49,7 @@ const SihoApp = ({name})=>{
                         <Route path={'/home'} element={<ResponsiveDrawer name={name} />}>
                             <Route index element={<Dashboard name={name} />}/>
                             <Route path={'/home/capture'} element={<Capture />}/>
+                            <Route path={'/home/template'} element={<Template />}/>
                         </Route>
                     </Route>
                 </Routes>

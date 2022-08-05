@@ -41,9 +41,9 @@ const ProyectContent = (props) => {
                                 <Typography variant='subtitle1' className='fade fade2' >{item.subtitle}</Typography>
                                 <Typography variant='body1' className='fade fade3' sx={{mt:2}}>{item.body}</Typography>
                                 { item.link? <a href={item.LinkTarget} target='_blank' rel="noreferrer"><Button startIcon={<LaunchIcon />} sx={{mt:2}} variant='outlined'>{ item.link }</Button></a>:null }
-                                { item.img? <img style={{width:'100%',minHeight:'40px',display:'block',backgroundColor:'#cacaca',marginTop:'20px'}} className='fade fade3' src={item.img} alt='Not found' />:null }
+                                { item.img? <img style={{width:'100%',minHeight:'40px',display:'block',marginTop:'20px'}} className='fade fade3' src={item.img} alt='Not found' />:null }
                                 { item.body2? <Typography variant='body1' className='fade fade3' sx={{mt:2}}>{item.body2}</Typography>:null }
-                                { item.img2? <img style={{width:'100%',minHeight:10,backgroundColor:'#cacaca',marginTop:'20px'}} className='fade fade3' src={item.img2} alt='Not found' />:null }
+                                { item.img2? <img style={{width:'100%',minHeight:'40px',marginTop:'20px'}} className='fade fade3' src={item.img2} alt='Not found' />:null }
                             </Box>
                         )
                     }) }

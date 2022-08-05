@@ -27,8 +27,8 @@ const MyAppRoutes = (props)=> {
     let en = GetEn()
     let es = GetEs()
     const [skipB, setSkipB] = useState(true)
-    const [name, setName] = useState('Guest')
-    const [lang, setLang] = useState(es)
+    const [lang, setLang] = useState(en)
+    const [name, setName] = useState(lang.guest)
     const [role, setRole] = useState('recruiter')
     const [direction,setDirection] = useState(true)
     
@@ -52,7 +52,7 @@ const MyAppRoutes = (props)=> {
         {
             mainProyect: proyect.anew,
             other1:proyect.book,
-            other2:proyect.sucream,
+            other2:proyect.smonkeys,
         },
         {
             mainProyect: proyect.book,
@@ -76,7 +76,7 @@ const MyAppRoutes = (props)=> {
         },
         {
             mainProyect: proyect.dentalist,
-            other1:proyect.sucream,
+            other1:proyect.smonkeys,
             other2: proyect.orange,
         },
         {
