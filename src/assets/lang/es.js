@@ -56,17 +56,21 @@ let es = {
             design: {
                 proyectName: 'Sistema SIHO',
                 proyectIntro:', hecha un vistazo a este escalable proceso de Ux ocupado para el rediseño de SIHO, una plataforma para registrar entrada y actividades de empleados.',
+                sihoFlag: true,
+                surveyLabel: 'Como describirías el flujo para registrar actividades en el Siho' ,
+                surveyOption1: 'Bueno y fácil' ,
+                surveyOption2: 'Dificil y frustrante' ,
+                surveyOption3: 'Bien, pero necesita mejoras' ,
+                interviewLabel: 'La última vez que hiciste x, cuentame más sobre ello' ,
                 info: [
                     {
                         subtitle: 'Encuesta',
-                        body: 'Investigación cuantitativa y datos numericosnos ayudó a comprender nuestro proyecto. La encuesta fue la mejor herramienta para estos fines.',
-                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-siho-1.jpg',
+                        body: 'Investigación cuantitativa y datos numericosnos ayudó a comprender nuestro proyecto. La encuesta fue la mejor herramienta para estos fines. Ejemplo:',
                     },
                     {
                         subtitle: 'Entrevista',
                         body: 'Cada entrevista necesita una sección de introducción, principal y de cierre. Al entrevistar, tengo preguntas preparadas que me ayudan a contestar una pregunta principal, pero siempre busco tener una platica simple y cómoda con mi entrevistado.',
-                        body2: 'Esta es una ejemplo de preguntas que nos llevan a recoger datos cualitativos.',
-                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-siho-2.jpg',
+                        body2: 'Esta es una ejemplo de preguntas que nos llevan a recoger datos cualitativos. Ejemplo:',
                     },
                     {
                         subtitle: 'Descubrimiento de problemas',
@@ -105,6 +109,7 @@ let es = {
             },
             code: {
                 proyectName: 'Código',
+                sihoFlag: false,
                 info: [
                     {
                         subtitle: '',
@@ -256,6 +261,7 @@ let es = {
                 proyectName: 'Landing Page Código',
                 info: [
                     {
+                        subtitle: '',
                         link: 'Visitar el sitio',
                         LinkTarget: 'https://estebanavon.github.io/av/assets/html/anew.html',
                     },
@@ -281,6 +287,16 @@ let es = {
                 proyectIntro:', aquí encontrarás el proceso completo que requirió colocar este book en línea.',
                 info: [
                     {
+                        subtitle: 'Diseño responsivo',
+                        body: 'Con Mui Grid system es fácil conseguir un sitio responsivo, para obtener la alineación correcta algunos media queries fueron aplicados.',
+                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-book-1.jpg',
+                    },
+                    {
+                        subtitle: 'Color',
+                        body: 'De acuerdo a la herramienta de Material color, elegí una sombra que se adaptará a la idea original de mi book. El color primario para la paleta clara es el cyan 900 de la libreria de Material.',
+                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-book.jpg',
+                    },
+                    {
                         subtitle: 'Wireframe',
                         body: 'Elegí Figma como herramienta de diseño y prototipado. Con el siguiente prototipo de baja fidelidad, logré realizar las pruebas de usuario, rápido y temprano en el proceso.',
                         link: 'Wireframes en Figma',
@@ -292,16 +308,6 @@ let es = {
                         body: 'El siguiente pas es probar y mejorar la fidelidad del prototipo. Todo el diseño visual y gráfico está alineado a Material Design.',
                         link: 'Prototipo en Figma',
                         LinkTarget: 'https://www.figma.com/proto/y5zJtFks36abZwEnp4RAxH/Portfolio-Prototype?page-id=0%3A1&node-id=2%3A25&viewport=713%2C453%2C0.06&scaling=scale-down&starting-point-node-id=2%3A25',
-                    },
-                    {
-                        subtitle: 'Diseño responsivo',
-                        body: 'Con Mui Grid system es fácil conseguir un sitio responsivo, para obtener la alineación correcta algunos media queries fueron aplicados.',
-                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-book-1.jpg',
-                    },
-                    {
-                        subtitle: 'Color',
-                        body: 'De acuerdo a la herramienta de Material color, elegí una sombra que se adaptará a la idea original de mi book. El color primario para la paleta clara es el cyan 900 de la libreria de Material.',
-                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-book.jpg',
                     },
                 ],
             },
@@ -432,6 +438,7 @@ let es = {
                         img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-conducta-3.jpg',
                     },
                     {
+                        subtitle: '12 app',
                         img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-conducta-2.jpg',
                     },
                 ],

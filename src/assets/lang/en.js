@@ -53,20 +53,25 @@ let en = {
                 'React',
                 'Mui theme',
             ],
+            
             design: {
                 proyectName: 'SIHO System Design',
                 proyectIntro:', take a look to this scaleable Ux process for the SIHO redesign, the platform for employees activity registration.',
+                sihoFlag: true,
+                surveyLabel: 'How would you describe the proccess flow to register an activity in Siho:' ,
+                surveyOption1: 'Good and easy' ,
+                surveyOption2: 'Hard and fustrating' ,
+                surveyOption3: 'Good enough, but needs improvements' ,
+                interviewLabel: 'The last time you did x, tell me more about it' ,
                 info: [
                     {
                         subtitle: 'Survey',
-                        body: 'Quantitative reasearch and numercial data helped us understand the overall problems of our proyect. The survey was our best tool for this purposes.',
-                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-siho-1.jpg',
+                        body: 'Quantitative reasearch and numercial data helped us understand the overall problems of our proyect. The survey was our best tool for this purposes. Example:',
                     },
                     {
                         subtitle: 'Interview',
-                        body: 'Every interview needs a intro, main and close section. When I interview, I have some questions prepared that help me answer a main question, but always look to have a normal and simple talk with my interviewee.',
+                        body: 'Every interview needs a intro, main and close section. When I interview, I have some questions prepared that help me answer a main question, but always look to have a normal and simple talk with my interviewee. Example:',
                         body2: 'This sample question leads us to qualitative data.',
-                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-siho-2.jpg',
                     },
                     {
                         subtitle: 'Problem finding',
@@ -106,6 +111,7 @@ let en = {
             },
             code: {
                 proyectName: 'SIHO System Code',
+                sihoFlag: false,
                 info: [
                     {
                         subtitle: '',
@@ -248,6 +254,7 @@ let en = {
                         img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-anew-4.jpg',
                     },
                     {
+                        subtitle: '',
                         link: 'Visit Landing Page',
                         LinkTarget: 'https://estebanavon.github.io/av/assets/html/anew.html',
                     },
@@ -257,6 +264,7 @@ let en = {
                 proyectName: 'Landing Page Code',
                 info: [
                     {
+                        subtitle: '',
                         link: 'Visit Landing Page',
                         LinkTarget: 'https://estebanavon.github.io/av/assets/html/anew.html',
                     },
@@ -283,6 +291,16 @@ let en = {
                 proyectIntro:', here yo can find the complete process I executed to get this ebook online.',
                 info: [
                     {
+                        subtitle: 'Responsive design',
+                        body: 'With Mui Grid system its easy to accomplish a responsive website, some media queries were applied in order to get proper alignment.',
+                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-book-1.jpg',
+                    },
+                    {
+                        subtitle: 'Color',
+                        body: 'Acording to Material cool tool, I choosed the color shade that most adapted himself to my book idea. The primary color for light theme is cyan 900 of Material library.',
+                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-book.jpg',
+                    },
+                    {
                         subtitle: 'Wireframing',
                         body: 'I choose Figma as my primary prototype/design tool. With the next low fidelity prototype I could run the user test as quickly as posible.',
                         link: 'Wireframes in Figma',
@@ -294,16 +312,6 @@ let en = {
                         body: 'The next step is to test and improve the fidelity of this prototype. All graphic/visual design is consistent to Material Design.',
                         link: 'Figma prototype',
                         LinkTarget: 'https://www.figma.com/proto/y5zJtFks36abZwEnp4RAxH/Portfolio-Prototype?page-id=0%3A1&node-id=2%3A25&viewport=713%2C453%2C0.06&scaling=scale-down&starting-point-node-id=2%3A25',
-                    },
-                    {
-                        subtitle: 'Responsive design',
-                        body: 'With Mui Grid system its easy to accomplish a responsive website, some media queries were applied in order to get proper alignment.',
-                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-book-1.jpg',
-                    },
-                    {
-                        subtitle: 'Color',
-                        body: 'Acording to Material cool tool, I choosed the color shade that most adapted himself to my book idea. The primary color for light theme is cyan 900 of Material library.',
-                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-book.jpg',
                     },
                 ],
             },
@@ -424,6 +432,7 @@ let en = {
                         img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-conducta-1.jpg',
                     },
                     {
+                        subtitle: '',
                         img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-conducta.jpg',
                     },
                     {
@@ -432,6 +441,7 @@ let en = {
                         img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-conducta-3.jpg',
                     },
                     {
+                        subtitle: '12 app',
                         img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-conducta-2.jpg',
                     },
                 ],
