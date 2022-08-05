@@ -47,14 +47,14 @@ let en = {
             target:'siho',
             category:'UX - UI',
             tab: true,
-            img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-siho.jpg',
+            img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-siho-6.jpg',
             software: [
                 'Figma',
                 'React',
                 'Mui theme',
             ],
             design: {
-                proyectName: 'UX - UI SIHO System Design',
+                proyectName: 'SIHO System Design',
                 proyectIntro:', take a look to this scaleable Ux process for the SIHO redesign, the platform for employees activity registration.',
                 info: [
                     {
@@ -70,7 +70,7 @@ let en = {
                     },
                     {
                         subtitle: 'Problem finding',
-                        body: 'For this assesment section we used the affinity wall, where we gather similar key moments of the interviews and the survey. This help to find main concerns and problems.',
+                        body: 'For this assesment section we used the affinity wall, where we gather similar key moments of the interviews and the survey. This helped to find main concerns and problems.',
                         img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-siho-3.jpg',
                     },
                     {
@@ -79,14 +79,14 @@ let en = {
                     },
                     {
                         subtitle: 'Wireframing',
-                        body: 'In this part we needed to test our solutions as fast as posible in order to know, what works, but nost important, whats does not so we can return to the brainstorm part and build new solutions.',
+                        body: 'In this part we needed to test our solutions as fast as posible in order to know, what works, but most important, whats does not so we can return to the brainstorm part and build new solutions.',
                         img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-siho-5.jpg',
                         link: 'Figma wireframing',
                         LinkTarget: 'https://www.figma.com/proto/OlY9927COlYC8sVdAXZX06/Siho-Wireframe?page-id=0%3A1&node-id=2%3A310&viewport=655%2C468%2C0.13&scaling=scale-down&starting-point-node-id=2%3A2',
                     },
                     {
                         subtitle: 'Usability Testing',
-                        body: 'This research consist on giving the user a especifc and challeging enough task to accomplish using our prototype, we should sliently follow all the test steps, take notes and make follow up questions.',
+                        body: 'This research consist on giving the user a especifc and challeging enough task to accomplish using our prototype, we should silently follow all the test steps, take notes and make follow up questions.',
                     },
                     {
                         subtitle: 'Final Figma Prototype',
@@ -105,7 +105,7 @@ let en = {
                 
             },
             code: {
-                proyectName: 'UX - UI SIHO System Code',
+                proyectName: 'SIHO System Code',
                 info: [
                     {
                         subtitle: '',
@@ -216,7 +216,7 @@ let en = {
                         body: 'Anew is Avon`s top selling anti ageing brand, all the products and qualities are displayed in this site.',
                     },
                     {
-                        subtitle: 'Desing y prototype',
+                        subtitle: 'Design y prototype',
                         body: 'After I received the marketing brief, I created a preliminated wireframe wich was worked on to achieve a high fidelity prototype in Invision.',
                         link: 'invision prototype',
                         LinkTarget: 'https://estebancazares381059.invisionapp.com/public/prototype/sklwchkvj005j1l01eoigs2sr',
@@ -234,7 +234,7 @@ let en = {
                     },
                     {
                         subtitle: 'Banners',
-                        body: 'For this site, the banner design was required, there gives entrance to the primary sections.',
+                        body: 'For this site, the banner design was required, they give entrance to the primary sections.',
                         img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-anew-4.jpg',
                     },
                     {

@@ -47,19 +47,19 @@ let es = {
             target:'siho',
             category:'UX - UI',
             tab: true,
-            img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-siho.jpg',
+            img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/ecazaresc_lg_2.jpg',
             software: [
                 'Figma',
                 'React',
                 'Mui theme',
             ],
             design: {
-                proyectName: 'UX - UI Sistema SIHO',
+                proyectName: 'Sistema SIHO',
                 proyectIntro:', hecha un vistazo a este escalable proceso de Ux ocupado para el rediseño de SIHO, una plataforma para registrar entrada y actividades de empleados.',
                 info: [
                     {
                         subtitle: 'Encuesta',
-                        body: 'investigación cuantitativa y datos numericosnos ayuda a comprender la percepción sobre nuestro proyecto. La encuesta es la mejor herramienta para estos fines.',
+                        body: 'Investigación cuantitativa y datos numericosnos ayudó a comprender nuestro proyecto. La encuesta fue la mejor herramienta para estos fines.',
                         img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-siho-1.jpg',
                     },
                     {
@@ -70,7 +70,7 @@ let es = {
                     },
                     {
                         subtitle: 'Descubrimiento de problemas',
-                        body: 'Para esta parte de la investigación usamos las affinity walls, donde reunimos importantes y similares momentos de las entrevistas y entrevistas. Esto nos ayuda a encontrar las mayores preocupaciones y problemas de la app.',
+                        body: 'Para esta parte de la investigación usamos las affinity walls, donde reunimos importantes y similares momentos de las entrevistas y entrevistas. Esto nos ayudó a encontrar las mayores preocupaciones y problemas de la app.',
                         img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-siho-3.jpg',
                     },
                     {
@@ -104,7 +104,7 @@ let es = {
                 ],
             },
             code: {
-                proyectName: 'UX - UI Código',
+                proyectName: 'Código',
                 info: [
                     {
                         subtitle: '',
