@@ -40,14 +40,14 @@ let es = {
     },
     mywork: {
         work: 'Mi trabajo',
-        moreWork: 'Más trabajo',
+        moreWork: 'Más opciones',
         tabsDesign:'Diseño',
         tabsCode:'Código',
         siho: {
             target:'siho',
             category:'UX - UI',
             tab: true,
-            img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/ecazaresc_lg_2.jpg',
+            img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-siho-3.jpg',
             software: [
                 'Figma',
                 'React',
@@ -63,48 +63,53 @@ let es = {
                 surveyOption3: 'Bien, pero necesita mejoras' ,
                 interviewLabel: 'La última vez que hiciste x, cuentame más sobre ello' ,
                 info: [
-                    {
-                        subtitle: 'Encuesta',
-                        body: 'Investigación cuantitativa y datos numericosnos ayudó a comprender nuestro proyecto. La encuesta fue la mejor herramienta para estos fines. Ejemplo:',
-                    },
-                    {
-                        subtitle: 'Entrevista',
-                        body: 'Cada entrevista necesita una sección de introducción, principal y de cierre. Al entrevistar, tengo preguntas preparadas que me ayudan a contestar una pregunta principal, pero siempre busco tener una platica simple y cómoda con mi entrevistado.',
-                        body2: 'Esta es una ejemplo de preguntas que nos llevan a recoger datos cualitativos. Ejemplo:',
-                    },
-                    {
-                        subtitle: 'Descubrimiento de problemas',
-                        body: 'Para esta parte de la investigación usamos las affinity walls, donde reunimos importantes y similares momentos de las entrevistas y entrevistas. Esto nos ayudó a encontrar las mayores preocupaciones y problemas de la app.',
-                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-siho-3.jpg',
-                    },
-                    {
-                        subtitle: 'Solucion de problemas',
-                        body: 'Para resolver las principales preocupaciones e ideas encontrados en la fase anterior, realizamos una lluvia de ideas. De todas las soluciones elegimos las que sentimos son mejores para nosotros, los stakeholders y los usuarios.',
-                    },
-                    {
-                        subtitle: 'Wireframes',
-                        body: 'En esta sección necesitamos probar nuestras ideas lo más pronto posible para saber, que funciona, pero más importante, que no. Así podemos regresar a realizar lluvia de ideas y construir nuesvas soluciones.',
-                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-siho-5.jpg',
-                        link: 'Figma wireframes',
-                        LinkTarget: 'https://www.figma.com/proto/OlY9927COlYC8sVdAXZX06/Siho-Wireframe?page-id=0%3A1&node-id=2%3A310&viewport=655%2C468%2C0.13&scaling=scale-down&starting-point-node-id=2%3A2',
-                    },
-                    {
-                        subtitle: 'Pruebas de usabilidad',
-                        body: 'Consiste en dar al usuario una tarea específica y suficientemente dificil para realizar en el prototipo, debemos sileniosamente seguir todos los pasos de la prueba, tomar nota y realizar preguntas de seguimiento.',
-                    },
-                    {
-                        subtitle: 'Figma prototipo final',
-                        body: 'Después de varios ciclos de pruebas y diseño, podemos ir agregar detalles visuales hasta obtener un prototipo de alta fidelidad. Este es un entregable para desarrolladoresy stakeholders.',
-                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-siho-6.jpg',
-                        link: 'Prototipo en Figma',
-                        LinkTarget: 'https://www.figma.com/proto/c6Fypi9qR5i1oHiM5OF6K0/Siho-Wireframe?page-id=0%3A1&node-id=1%3A61&viewport=750%2C566%2C0.44&scaling=scale-down&starting-point-node-id=1%3A719',
-                    },
-                    {
-                        subtitle: 'Template y Lineamientos de diseño',
-                        body: 'Con mis habilidades de código puedo ayudar al equipo de desarrollo con muchas de las tareas de desarrollo front-end. Puedes revisar mi Ejercicio Material Design donde desarrollé una plantilla a base de código con componentes listos para usarse.',
-                        buttonLabel: 'entrar a app de prueba',
-                        buttonTarget: '/transition',
-                    },
+                    [
+                        {
+                            subtitle: 'Encuesta',
+                            body: 'Investigación cuantitativa y datos numericosnos ayudó a comprender nuestro proyecto. La encuesta fue la mejor herramienta para estos fines. Ejemplo:',
+                        },
+                        {
+                            subtitle: 'Entrevista',
+                            body: 'Cada entrevista necesita una sección de introducción, principal y de cierre. Al entrevistar, tengo preguntas preparadas que me ayudan a contestar una pregunta principal, pero siempre busco tener una platica simple y cómoda con mi entrevistado.',
+                            body2: 'Esta es una ejemplo de preguntas que nos llevan a recoger datos cualitativos. Ejemplo:',
+                        },
+                    ],
+                    [
+                        {
+                            subtitle: 'Descubrimiento de problemas',
+                            body: 'Para esta parte de la investigación usamos las affinity walls, donde reunimos importantes y similares momentos de las entrevistas y entrevistas. Esto nos ayudó a encontrar las mayores preocupaciones y problemas de la app.',
+                            img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-siho-3.jpg',
+                        },
+                        {
+                            subtitle: 'Solucion de problemas',
+                            body: 'Para resolver las principales preocupaciones e ideas encontrados en la fase anterior, realizamos una lluvia de ideas. De todas las soluciones elegimos las que sentimos son mejores para nosotros, los stakeholders y los usuarios.',
+                        },
+                        {
+                            subtitle: 'Wireframes',
+                            body: 'En esta sección necesitamos probar nuestras ideas lo más pronto posible para saber, que funciona, pero más importante, que no. Así podemos regresar a realizar lluvia de ideas y construir nuesvas soluciones.',
+                            img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-siho-5.jpg',
+                            link: 'Figma wireframes',
+                            LinkTarget: 'https://www.figma.com/proto/OlY9927COlYC8sVdAXZX06/Siho-Wireframe?page-id=0%3A1&node-id=2%3A310&viewport=655%2C468%2C0.13&scaling=scale-down&starting-point-node-id=2%3A2',
+                        },
+                        {
+                            subtitle: 'Pruebas de usabilidad',
+                            body: 'Consiste en dar al usuario una tarea específica y suficientemente dificil para realizar en el prototipo, debemos sileniosamente seguir todos los pasos de la prueba, tomar nota y realizar preguntas de seguimiento.',
+                        },
+                        {
+                            subtitle: 'Figma prototipo final',
+                            body: 'Después de varios ciclos de pruebas y diseño, podemos ir agregar detalles visuales hasta obtener un prototipo de alta fidelidad. Este es un entregable para desarrolladoresy stakeholders.',
+                            img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-siho-6.jpg',
+                            link: 'Prototipo en Figma',
+                            LinkTarget: 'https://www.figma.com/proto/c6Fypi9qR5i1oHiM5OF6K0/Siho-Wireframe?page-id=0%3A1&node-id=1%3A61&viewport=750%2C566%2C0.44&scaling=scale-down&starting-point-node-id=1%3A719',
+                        },
+                        {
+                            subtitle: 'Template y Lineamientos de diseño',
+                            body: 'Con mis habilidades de código puedo ayudar al equipo de desarrollo con muchas de las tareas de desarrollo front-end. Puedes revisar mi Ejercicio Material Design donde desarrollé una plantilla a base de código con componentes listos para usarse.',
+                            buttonLabel: 'entrar a app de prueba',
+                            buttonTarget: '/transition',
+                        },
+                    ],
+                    
                 ],
             },
             code: {
@@ -209,6 +214,7 @@ let es = {
             software: [
                 'Invision',
                 'Jquery',
+                'Bootstrap',
                 'Sass',
             ],
             design: {
@@ -227,8 +233,8 @@ let es = {
                         img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-anew-1.jpg',
                     },
                     {
-                        subtitle: 'Color',
-                        body: 'La paleta de colores es consistente con el sistema de Avon y su comunicación externa. Los colores del sistema estan expresados en botones y controles.',
+                        subtitle: 'Navegación',
+                        body: 'Para hacer sencilla la navigación elegí un nav tipo tabs, donde puedes acceder a las 4 secciones principales sin necesidad de bajar a subniveles.',
                         img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-anew-3.jpg',
                     },
                     {

@@ -40,7 +40,7 @@ let en = {
     },
     mywork: {
         work: 'My work',
-        moreWork: 'More Work',
+        moreWork: 'More options',
         tabsDesign:'Design',
         tabsCode:'Code',
         siho: {
@@ -53,59 +53,62 @@ let en = {
                 'React',
                 'Mui theme',
             ],
-            
             design: {
                 proyectName: 'SIHO System Design',
                 proyectIntro:', take a look to this scaleable Ux process for the SIHO redesign, the platform for employees activity registration.',
                 sihoFlag: true,
                 surveyLabel: 'How would you describe the proccess flow to register an activity in Siho:' ,
                 surveyOption1: 'Good and easy' ,
-                surveyOption2: 'Hard and fustrating' ,
+                surveyOption2: 'Hard and frustrating' ,
                 surveyOption3: 'Good enough, but needs improvements' ,
                 interviewLabel: 'The last time you did x, tell me more about it' ,
                 info: [
-                    {
-                        subtitle: 'Survey',
-                        body: 'Quantitative reasearch and numercial data helped us understand the overall problems of our proyect. The survey was our best tool for this purposes. Example:',
-                    },
-                    {
-                        subtitle: 'Interview',
-                        body: 'Every interview needs a intro, main and close section. When I interview, I have some questions prepared that help me answer a main question, but always look to have a normal and simple talk with my interviewee. Example:',
-                        body2: 'This sample question leads us to qualitative data.',
-                    },
-                    {
-                        subtitle: 'Problem finding',
-                        body: 'For this assesment section we used the affinity wall, where we gather similar key moments of the interviews and the survey. This helped to find main concerns and problems.',
-                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-siho-3.jpg',
-                    },
-                    {
-                        subtitle: 'Problem solving',
-                        body: 'For the solving part we took those main ideas/concerns from the previous stage, to brainstorm it for solutions. To continue the proccess we choose the ones that felt better for us, our stakeholders and our users.',
-                    },
-                    {
-                        subtitle: 'Wireframing',
-                        body: 'In this part we needed to test our solutions as fast as posible in order to know, what works, but most important, whats does not so we can return to the brainstorm part and build new solutions.',
-                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-siho-5.jpg',
-                        link: 'Figma wireframing',
-                        LinkTarget: 'https://www.figma.com/proto/OlY9927COlYC8sVdAXZX06/Siho-Wireframe?page-id=0%3A1&node-id=2%3A310&viewport=655%2C468%2C0.13&scaling=scale-down&starting-point-node-id=2%3A2',
-                    },
-                    {
-                        subtitle: 'Usability Testing',
-                        body: 'This research consist on giving the user a especifc and challeging enough task to accomplish using our prototype, we should silently follow all the test steps, take notes and make follow up questions.',
-                    },
-                    {
-                        subtitle: 'Final Figma Prototype',
-                        body: 'After serveral cycles of testing and design, we added more and more visual details untill we made a high fidelity prototype to hand it over to front end developers and stakeholders.',
-                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-siho-6.jpg',
-                        link: 'Figma prototype',
-                        LinkTarget: 'https://www.figma.com/proto/c6Fypi9qR5i1oHiM5OF6K0/Siho-Wireframe?page-id=0%3A1&node-id=1%3A61&viewport=750%2C566%2C0.44&scaling=scale-down&starting-point-node-id=1%3A719',
-                    },
-                    {
-                        subtitle: 'Template and Design Guidelines',
-                        body: 'With all my design and code skills I helped the development team with most front-end task. You can check out my Material Design Exercise where I develop a code based Template with components ready to use.',
-                        buttonLabel: 'ENTER TEST APP',
-                        buttonTarget: '/transition',
-                    },
+                    [
+                        {
+                            subtitle: 'Survey',
+                            body: 'Quantitative reasearch and numercial data helped us understand the overall problems of our proyect. The survey was our best tool for this purposes. Example:',
+                        },
+                        {
+                            subtitle: 'Interview',
+                            body: 'Every interview needs a intro, main and close section. When I interview, I have some questions prepared that help me answer a main question, but always look to have a normal and simple talk with my interviewee. Example:',
+                            body2: 'This sample question leads us to qualitative data.',
+                        },
+                    ],
+                    [
+                        {
+                            subtitle: 'Problem finding',
+                            body: 'For this assesment section we used the affinity wall, where we gather similar key moments of the interviews and the survey. This helped to find main concerns and problems.',
+                            img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-siho-3.jpg',
+                        },
+                        {
+                            subtitle: 'Problem solving',
+                            body: 'For the solving part we took those main ideas/concerns from the previous stage, to brainstorm it for solutions. To continue the proccess we choose the ones that felt better for us, our stakeholders and our users.',
+                        },
+                        {
+                            subtitle: 'Wireframing',
+                            body: 'In this part we needed to test our solutions as fast as posible in order to know, what works, but most important, whats does not so we can return to the brainstorm part and build new solutions.',
+                            img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-siho-5.jpg',
+                            link: 'Figma wireframing',
+                            LinkTarget: 'https://www.figma.com/proto/OlY9927COlYC8sVdAXZX06/Siho-Wireframe?page-id=0%3A1&node-id=2%3A310&viewport=655%2C468%2C0.13&scaling=scale-down&starting-point-node-id=2%3A2',
+                        },
+                        {
+                            subtitle: 'Usability Testing',
+                            body: 'This research consist on giving the user a especifc and challeging enough task to accomplish using our prototype, we should silently follow all the test steps, take notes and make follow up questions.',
+                        },
+                        {
+                            subtitle: 'Final Figma Prototype',
+                            body: 'After serveral cycles of testing and design, we added more and more visual details untill we made a high fidelity prototype to hand it over to front end developers and stakeholders.',
+                            img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-siho-6.jpg',
+                            link: 'Figma prototype',
+                            LinkTarget: 'https://www.figma.com/proto/c6Fypi9qR5i1oHiM5OF6K0/Siho-Wireframe?page-id=0%3A1&node-id=1%3A61&viewport=750%2C566%2C0.44&scaling=scale-down&starting-point-node-id=1%3A719',
+                        },
+                        {
+                            subtitle: 'Template and Design Guidelines',
+                            body: 'With all my design and code skills I helped the development team with most front-end task. You can check out my Material Design Exercise where I develop a code based Template with components ready to use.',
+                            buttonLabel: 'ENTER TEST APP',
+                            buttonTarget: '/transition',
+                        },
+                    ],
                 ],
                 
             },
@@ -211,6 +214,7 @@ let en = {
             software: [
                 'Invision',
                 'Jquery',
+                'Bootstrap',
                 'Sass',
             ],
             design: {
@@ -229,8 +233,8 @@ let en = {
                         img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-anew-1.jpg',
                     },
                     {
-                        subtitle: 'Color',
-                        body: 'The chromatic, is consistent with Avon`s system design and brand. System colors are voiced on buttons and controls.',
+                        subtitle: 'Navigation',
+                        body: 'To make it easy to navigate I choosed a tab like nav, where we can acces the 4 main sections without having to get in to sublevels.',
                         img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-anew-3.jpg',
                     },
                     {

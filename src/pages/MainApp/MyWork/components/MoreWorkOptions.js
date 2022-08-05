@@ -29,28 +29,32 @@ const MoreWorkOptions = ()=>{
             }
         }}>
             <Typography variant='h6'>{lang.mywork.moreWork}</Typography>
+            <Box sx={styleButton} onClick={()=>{
+                    navigate('/home/w')
+                    document.body.scrollTop = 0
+                    document.documentElement.scrollTop = 0
+                }}>{lang.restOfMyWork}
+            </Box>
             <Box sx={styleButton} onClick={
                 ()=>{
                     navigate('/home/w/siho')
                     document.body.scrollTop = 0
                     document.documentElement.scrollTop = 0
                 }
-            }>{lang.mywork.siho.design.proyectName}</Box>
-            <Box sx={styleButton} onClick={()=>{
-                    navigate('/home/w')
-                    document.body.scrollTop = 0
-                    document.documentElement.scrollTop = 0
-                }}>{lang.restOfMyWork}</Box>
+            }>{lang.mywork.siho.design.proyectName}
+            </Box>
             <Box sx={styleButton} onClick={()=>{
                     navigate('/home/w/book')
                     document.body.scrollTop = 0
                     document.documentElement.scrollTop = 0
-                }}>{lang.mywork.book.design.proyectName}</Box>
+                }}>{lang.mywork.book.design.proyectName}
+            </Box>
             <Box sx={styleButton} onClick={()=>{
-                navigate('/home')
-                document.body.scrollTop = 0
-                document.documentElement.scrollTop = 0
-            }}><Button startIcon={<HomeIcon />} variant='contained'>{lang.home}</Button></Box>
+                    navigate('/home')
+                    document.body.scrollTop = 0
+                    document.documentElement.scrollTop = 0
+                }}><Button startIcon={<HomeIcon />} variant='contained'>{lang.home}</Button>
+            </Box>
         </Box>
     )
 }

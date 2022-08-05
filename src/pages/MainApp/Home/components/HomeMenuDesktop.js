@@ -13,6 +13,7 @@ import img1 from '../../../../assets/images/ecazaresc_lg_1.jpg'
 import img2 from '../../../../assets/images/ecazaresc_lg_3.jpg'
 import img3 from '../../../../assets/images/ecazaresc_lg_4.jpg'
 
+
 const HomeMenuDesktop = ({name, role})=> {
     const lang = useContext(LangContext)
     const navigate = useNavigate()
