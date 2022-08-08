@@ -144,7 +144,7 @@ let en = {
                 'Less',
             ],
             design: {
-                proyectName: 'Kidzania Kiosk',
+                proyectName: "Kidzania's Kiosk",
                 proyectIntro:', the autoservice kiosk module is the most visual interesting of the Kidzania`s complex FourZ4 system.',
                 info: [
                     {
@@ -218,8 +218,8 @@ let en = {
                 'Sass',
             ],
             design: {
-                proyectName: 'Anew Landing Page',
-                proyectIntro:', the anew landing page is a marteking landing page to promote anti ageing skin creams on Mexico, Guatemala, Honduras, Panama, El Salvador y Dominicana Rep. markets.',
+                proyectName: "Avon's Anew",
+                proyectIntro:', the Anew landing page is a marteking landing page to promote anti ageing skin creams on Mexico, Guatemala, Honduras, Panama, El Salvador and Dominicana Rep. markets.',
                 info: [
                     {
                         subtitle: 'About',
@@ -249,12 +249,12 @@ let en = {
                     },
                     {
                         subtitle: 'Typography',
-                        body: 'Montserrat sans family offers a variarity of font weights, it was my besto option for the web site.',
+                        body: 'Montserrat sans family offers a variarity of font weights, it was my best option for the web site.',
                         img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-anew-6.jpg',
                     },
                     {
                         subtitle: 'Banners',
-                        body: 'For this site, the banner design was required, they give entrance to the primary sections.',
+                        body: 'For this site, the banner design was required, they give entrance to the primary sections, both desktop and mobile.',
                         img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-anew-4.jpg',
                     },
                     {
@@ -265,7 +265,7 @@ let en = {
                 ],
             },
             code: {
-                proyectName: 'Landing Page Code',
+                proyectName: "Avon's Anew Code",
                 info: [
                     {
                         subtitle: '',
@@ -314,6 +314,7 @@ let en = {
                     {
                         subtitle: 'Design and prototype',
                         body: 'The next step is to test and improve the fidelity of this prototype. All graphic/visual design is consistent to Material Design.',
+                        body2: 'Next step: code (go to code tab).',
                         link: 'Figma prototype',
                         LinkTarget: 'https://www.figma.com/proto/y5zJtFks36abZwEnp4RAxH/Portfolio-Prototype?page-id=0%3A1&node-id=2%3A25&viewport=713%2C453%2C0.06&scaling=scale-down&starting-point-node-id=2%3A25',
                     },
@@ -328,7 +329,11 @@ let en = {
                         body: 'In order to expose the source code I used a GitHub repository, you can visit it here:',
                         link: 'GitHub Repository',
                         LinkTarget: 'https://github.com/ecazaresc/book',
-                    }
+                    },
+                    {
+                        subtitle: 'Switchable theme',
+                        body: 'The app can work with the primary light theme (default) or the black theme. Try switching it on My resume page (Home)',
+                    },
                 ],
             }
         },
@@ -347,7 +352,7 @@ let en = {
                 info: [
                     {
                         subtitle: 'Concept',
-                        body: 'Its a soft caramel brand that contains milk, much known in Mexico, just like nucita o duvalin candies. In order to compete with stablished brands, this hypotetical proyect needed lettering and a consistent ilustration for our target.',
+                        body: 'Its a soft caramel brand that contains milk, much known in Mexico, just like nucita or duvalin candies. In order to compete with stablished brands, this hypotetical proyect needed lettering and a consistent ilustration for our target.',
                         img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-sucream-1.jpg',
                     },
                     {
@@ -505,7 +510,7 @@ let en = {
         designinfo: {
             title: 'Some design skills',
             bullets: [
-                'Qualitive and Quantitive research',
+                'Qualitative and Quantitative research',
                 'User personas',
                 'User testing',
                 'Wireframes and prototypes',
@@ -541,7 +546,7 @@ let en = {
         experienceinfo: {
             title: 'Profesional experience',
             bullets: [
-                'MARCH 2020 - JULY 2022 Avon NoLa’s markets UX - UI Designer (Design and Development of Graphical User Interfaces and marketing landing pages. Testing and Styles supervisor.)',
+                'MARCH 2020 - Current Avon NoLa’s markets UX - UI Designer (Design and Development of Graphical User Interfaces and marketing landing pages. Testing and Styles supervisor.)',
                 'APRIL 2018 - FEBRUARY 2020 23 months like Praxis UX - UI Designer (Standards and User Interface Design; Front end Development including Jquery and Typescript) for clients such as KidZania and Mapfre.',
                 'MAY 2017 - MARCH 2018 10 moths like Jr Designer at Mexican Mail Service (Digital campaigns development sent through Internal Comunication with a country scale).',
             ],

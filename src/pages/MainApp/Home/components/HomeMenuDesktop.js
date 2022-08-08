@@ -23,7 +23,7 @@ const HomeMenuDesktop = ({name, role})=> {
         author = 'Photo by Marek Piwnicki: https://www.pexels.com/photo/red-blue-and-green-light-12214884/'
     } else if (role === 'engineer') {
         img = img2
-        author = 'Photo by Mati Mango: https://www.pexels.com/photo/person-wearing-black-hoodie-5952647/'
+        author = 'Photo by Neo: https://www.pexels.com/photo/lines-of-code-2653362/'
     } else {
         img = img3
         author = 'Photo by Irina Iriser: https://www.pexels.com/photo/top-view-photo-of-green-plants-1090972/'

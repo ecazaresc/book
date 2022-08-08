@@ -66,7 +66,7 @@ let es = {
                     [
                         {
                             subtitle: 'Encuesta',
-                            body: 'Investigación cuantitativa y datos numericosnos ayudó a comprender nuestro proyecto. La encuesta fue la mejor herramienta para estos fines. Ejemplo:',
+                            body: 'Investigación cuantitativa y datos numericos nos ayudaron a comprender nuestro proyecto. La encuesta fue la mejor herramienta para estos fines. Ejemplo:',
                         },
                         {
                             subtitle: 'Entrevista',
@@ -77,34 +77,34 @@ let es = {
                     [
                         {
                             subtitle: 'Descubrimiento de problemas',
-                            body: 'Para esta parte de la investigación usamos las affinity walls, donde reunimos importantes y similares momentos de las entrevistas y entrevistas. Esto nos ayudó a encontrar las mayores preocupaciones y problemas de la app.',
+                            body: 'Para esta parte de la investigación usamos las affinity walls, donde reunimos importantes y similares momentos de las encuestas y entrevistas. Esto nos ayudó a encontrar las mayores preocupaciones y problemas de la app.',
                             img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-siho-3.jpg',
                         },
                         {
                             subtitle: 'Solucion de problemas',
-                            body: 'Para resolver las principales preocupaciones e ideas encontrados en la fase anterior, realizamos una lluvia de ideas. De todas las soluciones elegimos las que sentimos son mejores para nosotros, los stakeholders y los usuarios.',
+                            body: 'Para resolver las principales preocupaciones e ideas encontradas en la fase anterior, realizamos una lluvia de ideas. De todas las soluciones elegimos las que sentimos son mejores para nosotros, los stakeholders y los usuarios.',
                         },
                         {
                             subtitle: 'Wireframes',
-                            body: 'En esta sección necesitamos probar nuestras ideas lo más pronto posible para saber, que funciona, pero más importante, que no. Así podemos regresar a realizar lluvia de ideas y construir nuesvas soluciones.',
+                            body: 'En esta sección necesitamos probar nuestras ideas lo más pronto posible para saber, que funciona, pero más importante, que no. Así podemos regresar a realizar lluvia de ideas y construir nuevas soluciones.',
                             img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-siho-5.jpg',
                             link: 'Figma wireframes',
                             LinkTarget: 'https://www.figma.com/proto/OlY9927COlYC8sVdAXZX06/Siho-Wireframe?page-id=0%3A1&node-id=2%3A310&viewport=655%2C468%2C0.13&scaling=scale-down&starting-point-node-id=2%3A2',
                         },
                         {
                             subtitle: 'Pruebas de usabilidad',
-                            body: 'Consiste en dar al usuario una tarea específica y suficientemente dificil para realizar en el prototipo, debemos sileniosamente seguir todos los pasos de la prueba, tomar nota y realizar preguntas de seguimiento.',
+                            body: 'Consiste en dar al usuario una tarea específica y suficientemente dificil para realizar en el prototipo, debemos silensiosamente seguir todos los pasos de la prueba, tomar nota y realizar preguntas de seguimiento.',
                         },
                         {
                             subtitle: 'Figma prototipo final',
-                            body: 'Después de varios ciclos de pruebas y diseño, podemos ir agregar detalles visuales hasta obtener un prototipo de alta fidelidad. Este es un entregable para desarrolladoresy stakeholders.',
+                            body: 'Después de varios ciclos de pruebas y diseño, podemos agregar detalles visuales hasta obtener un prototipo de alta fidelidad. Este es un entregable para desarrolladores y stakeholders.',
                             img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-siho-6.jpg',
                             link: 'Prototipo en Figma',
                             LinkTarget: 'https://www.figma.com/proto/c6Fypi9qR5i1oHiM5OF6K0/Siho-Wireframe?page-id=0%3A1&node-id=1%3A61&viewport=750%2C566%2C0.44&scaling=scale-down&starting-point-node-id=1%3A719',
                         },
                         {
-                            subtitle: 'Template y Lineamientos de diseño',
-                            body: 'Con mis habilidades de código puedo ayudar al equipo de desarrollo con muchas de las tareas de desarrollo front-end. Puedes revisar mi Ejercicio Material Design donde desarrollé una plantilla a base de código con componentes listos para usarse.',
+                            subtitle: 'Plantilla y Lineamientos de diseño',
+                            body: 'Con mis habilidades en desarrollo puedo ayudar al equipo con muchas de las tareas de desarrollo front-end. Puedes revisar mi ejercicio Material Design donde desarrollé una plantilla a base de código con componentes listos para usarse.',
                             buttonLabel: 'entrar a app de prueba',
                             buttonTarget: '/transition',
                         },
@@ -218,7 +218,7 @@ let es = {
                 'Sass',
             ],
             design: {
-                proyectName: 'Anew Landing Page',
+                proyectName: 'Anew, de Avon',
                 proyectIntro:', el sitio Anew es para promoción y difusión de los productos antiedad de Avon en los mercados México, Guatemala, Honduras, Panama, El Salvador y Rep. Dominicana.',
                 info: [
                     {
@@ -239,7 +239,7 @@ let es = {
                     },
                     {
                         subtitle: 'Diseño responsivo design',
-                        body: 'Para este proyecto utilicé, en su mayría Bootstrap 4.6, junto con algunos media queries propios. Todos las secciones del diseño tienen su version para dispositivos móviles.',
+                        body: 'Para este proyecto utilicé, en su mayoría Bootstrap 4.6, junto con algunos media queries propios. Todas las secciones del diseño tienen su version para dispositivos móviles.',
                         img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-anew-2.jpg',
                     },
                     {
@@ -249,7 +249,7 @@ let es = {
                     },
                     {
                         subtitle: 'Tipografía',
-                        body: 'Por su variaedad en pesos tipográficos, la familia Montserrat fue la mejor opción para el sitio.',
+                        body: 'Por su variedad en pesos tipográficos, la familia Montserrat fue la mejor opción para el sitio.',
                         img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-anew-6.jpg',
                     },
                     {
@@ -264,7 +264,7 @@ let es = {
                 ],
             },
             code: {
-                proyectName: 'Landing Page Código',
+                proyectName: 'Anew, de Avon, Código',
                 info: [
                     {
                         subtitle: '',
@@ -311,7 +311,8 @@ let es = {
                     },
                     {
                         subtitle: 'Diseño y prototipo',
-                        body: 'El siguiente pas es probar y mejorar la fidelidad del prototipo. Todo el diseño visual y gráfico está alineado a Material Design.',
+                        body: 'El siguiente paso es probar y mejorar la fidelidad del prototipo. Todo el diseño visual y gráfico está alineado a Material Design.',
+                        body2: 'Siguientes pasos: código (ve a la tab código).',
                         link: 'Prototipo en Figma',
                         LinkTarget: 'https://www.figma.com/proto/y5zJtFks36abZwEnp4RAxH/Portfolio-Prototype?page-id=0%3A1&node-id=2%3A25&viewport=713%2C453%2C0.06&scaling=scale-down&starting-point-node-id=2%3A25',
                     },
@@ -326,7 +327,11 @@ let es = {
                         body: 'Para exponer y mostrar el código fuente, utilicé un repositorio en GitHub, lo puedes consultar a continuación:',
                         link: 'GitHub',
                         LinkTarget: 'https://github.com/ecazaresc/book',
-                    }
+                    },
+                    {
+                        subtitle: 'Tema intercambiable',
+                        body: 'La app esta capacitada para funcionar con el tema primordialmente claro (default), y otro tema oscuro, pruébalo en la página Mi Cv (Inicio)',
+                    },
                 ],
             }
         },
@@ -405,7 +410,7 @@ let es = {
                     },
                     {
                         subtitle: 'Concepto',
-                        body: 'Gracias a un juego de palabras con smoothie, los dueños tuvieron la idea de llamar a su negocio, smonkeys. Tome el discurso visual a nuevas alturas, rodeando al simio con iconos de su ambiente y una catería',
+                        body: 'Gracias a un juego de palabras con smoothie, los dueños tuvieron la idea de llamar a su negocio, smonkeys. Tome el discurso visual a nuevas alturas, rodeando al simio con iconos de su ambiente y una cafetería',
                         img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-smonkeys-2.jpg',
                     },
                     {
@@ -539,9 +544,9 @@ let es = {
         experienceinfo: {
             title: 'Experiencia profesional',
             bullets: [
-                'MARZO 2020 - JULIO 2022 Avon en los mercados Norte de America Latina, Diseñador UX - UI, (Diseño / desarrollo de interfaces gráficas de usuario, y páginas de aterrizaje para marketing. Testeador y supervisor de estilos.)',
-                'ABRIL 2018 - FEBRERO 2020 23 meses como Diseñador UX - UI en Praxis (Diseño y estándares de Interfaces gráficas de usuario; Desarrollo front end incluyendo código Jquery y Typescript) trabajamos clientes como KidZania y Mapfre.',
-                'MAYO 2017 - MARZO 2018  10 meses como Diseñador Jr para el Servicio Postal Mexicano (Desarrollo de campañas digitales difundidas através de la Comunicacioón Interna a escala nacional).',
+                'MARZO 2020 - Actualidad Diseñador UX - UI Avon en los mercados Norte de America Latina, (Diseño / desarrollo de interfaces gráficas de usuario, y páginas de aterrizaje para marketing. Testeador y supervisor de estilos.)',
+                'ABRIL 2018 - FEBRERO 2020 Diseñador UX - UI. 23 meses en Praxis (Diseño y estándares de Interfaces gráficas de usuario; Desarrollo front-end incluyendo código Jquery y Typescript) trabajamos clientes como KidZania y Mapfre.',
+                'MAYO 2017 - MARZO 2018  10 meses como Diseñador Jr para el Servicio Postal Mexicano (Desarrollo de campañas digitales difundidas através de la Comunicación Interna a escala nacional).',
             ],
             button: false,
             label:'FIGMA PROTOTYPE',
