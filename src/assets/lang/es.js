@@ -16,7 +16,7 @@ let es = {
     categories: [
         'UX / UI',
         'Branding',
-        'SPM',
+        'Comunicaciones',
     ],
     onboard: {
         welcome:'Bienvenid@',
@@ -71,7 +71,7 @@ let es = {
                         {
                             subtitle: 'Entrevista',
                             body: 'Cada entrevista necesita una sección de introducción, principal y de cierre. Al entrevistar, tengo preguntas preparadas que me ayudan a contestar una pregunta principal, pero siempre busco tener una platica simple y cómoda con mi entrevistado.',
-                            body2: 'Esta es una ejemplo de preguntas que nos llevan a recoger datos cualitativos. Ejemplo:',
+                            body2: 'Este es un ejemplo de preguntas que nos llevan a recoger datos cualitativos. Ejemplo:',
                         },
                     ],
                     [
@@ -290,24 +290,24 @@ let es = {
             ],
             design: {
                 proyectName: 'Mi book (proyecto)',
-                proyectIntro:', aquí encontrarás el proceso completo que requirió colocar este book en línea.',
+                proyectIntro:', aquí encontrarás el proceso que requirió colocar este book en línea.',
                 info: [
-                    {
-                        subtitle: 'Diseño responsivo',
-                        body: 'Con Mui Grid system es fácil conseguir un sitio responsivo, para obtener la alineación correcta algunos media queries fueron aplicados.',
-                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-book-1.jpg',
-                    },
-                    {
-                        subtitle: 'Color',
-                        body: 'De acuerdo a la herramienta de Material color, elegí una sombra que se adaptará a la idea original de mi book. El color primario para la paleta clara es el cyan 900 de la libreria de Material.',
-                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-book.jpg',
-                    },
                     {
                         subtitle: 'Wireframe',
                         body: 'Elegí Figma como herramienta de diseño y prototipado. Con el siguiente prototipo de baja fidelidad, logré realizar las pruebas de usuario, rápido y temprano en el proceso.',
                         link: 'Wireframes en Figma',
                         LinkTarget: 'https://www.figma.com/proto/MPCW9VjdI5J8Wjm1HIbAcb/Portfolio-Wireframe?page-id=0%3A1&node-id=2%3A2&viewport=665%2C445%2C0.06&scaling=scale-down&starting-point-node-id=2%3A2',
                         img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-figma.png',
+                    },
+                    {
+                        subtitle: 'Diseño responsivo',
+                        body: 'Con Mui Grid system es fácil conseguir un sitio responsivo. Desde la fase de diseño tenia en mente distintos anchos de dispositivos.',
+                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-book-1.jpg',
+                    },
+                    {
+                        subtitle: 'Color',
+                        body: 'De acuerdo a la herramienta de Material color, elegí una sombra que se adaptará a la idea original de mi book. El color primario para la paleta clara es el cyan 900 de la libreria de Material.',
+                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-book.jpg',
                     },
                     {
                         subtitle: 'Diseño y prototipo',
@@ -544,9 +544,9 @@ let es = {
         experienceinfo: {
             title: 'Experiencia profesional',
             bullets: [
-                'MARZO 2020 - Actualidad Diseñador UX - UI Avon en los mercados Norte de America Latina, (Diseño / desarrollo de interfaces gráficas de usuario, y páginas de aterrizaje para marketing. Testeador y supervisor de estilos.)',
-                'ABRIL 2018 - FEBRERO 2020 Diseñador UX - UI. 23 meses en Praxis (Diseño y estándares de Interfaces gráficas de usuario; Desarrollo front-end incluyendo código Jquery y Typescript) trabajamos clientes como KidZania y Mapfre.',
-                'MAYO 2017 - MARZO 2018  10 meses como Diseñador Jr para el Servicio Postal Mexicano (Desarrollo de campañas digitales difundidas através de la Comunicación Interna a escala nacional).',
+                'MARZO 2020 - Actualidad / Diseñador UX - UI Avon en los mercados Norte de America Latina. Diseño / desarrollo de interfaces gráficas de usuario, y páginas de aterrizaje para marketing. Testeador y supervisor de estilos (css).',
+                'ABRIL 2018 - FEBRERO 2020 / Diseñador UX - UI. 23 meses en Praxis. Diseño y estándares de Interfaces gráficas de usuario; Desarrollo front-end incluyendo código Jquery y Typescript trabajamos clientes como KidZania y Mapfre.',
+                'MAYO 2017 - MARZO 2018 / 10 meses como Diseñador Jr para el Servicio Postal Mexicano. Desarrollo de campañas digitales difundidas através de la Comunicación Interna a escala nacional.',
             ],
             button: false,
             label:'FIGMA PROTOTYPE',

@@ -16,7 +16,7 @@ let en = {
     categories: [
         'UX / UI',
         'Branding',
-        'SPM',
+        'Comunication',
     ],
     onboard: {
         welcome:'Welcome',
@@ -292,24 +292,24 @@ let en = {
             ],
             design: {
                 proyectName: 'My book (proyect)',
-                proyectIntro:', here yo can find the complete process I executed to get this ebook online.',
+                proyectIntro:', here you can find the process I executed to get this ebook online.',
                 info: [
-                    {
-                        subtitle: 'Responsive design',
-                        body: 'With Mui Grid system its easy to accomplish a responsive website, some media queries were applied in order to get proper alignment.',
-                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-book-1.jpg',
-                    },
-                    {
-                        subtitle: 'Color',
-                        body: 'Acording to Material cool tool, I choosed the color shade that most adapted himself to my book idea. The primary color for light theme is cyan 900 of Material library.',
-                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-book.jpg',
-                    },
                     {
                         subtitle: 'Wireframing',
                         body: 'I choose Figma as my primary prototype/design tool. With the next low fidelity prototype I could run the user test as quickly as posible.',
                         link: 'Wireframes in Figma',
                         LinkTarget: 'https://www.figma.com/proto/MPCW9VjdI5J8Wjm1HIbAcb/Portfolio-Wireframe?page-id=0%3A1&node-id=2%3A2&viewport=665%2C445%2C0.06&scaling=scale-down&starting-point-node-id=2%3A2',
                         img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-figma.png',
+                    },
+                    {
+                        subtitle: 'Responsive design',
+                        body: 'With Mui Grid system its easy to accomplish a responsive website, since the design fase I was aware of diferent devices widths.',
+                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-book-1.jpg',
+                    },
+                    {
+                        subtitle: 'Color',
+                        body: 'Acording to Material cool tool, I choosed the color shade that most adapted himself to my book idea. The primary color for light theme is cyan 900 of Material library.',
+                        img:'https://raw.githubusercontent.com/ecazaresc/book/master/src/assets/images/web-book.jpg',
                     },
                     {
                         subtitle: 'Design and prototype',
@@ -546,9 +546,9 @@ let en = {
         experienceinfo: {
             title: 'Profesional experience',
             bullets: [
-                'MARCH 2020 - Current Avon NoLa’s markets UX - UI Designer (Design and Development of Graphical User Interfaces and marketing landing pages. Testing and Styles supervisor.)',
-                'APRIL 2018 - FEBRUARY 2020 23 months like Praxis UX - UI Designer (Standards and User Interface Design; Front end Development including Jquery and Typescript) for clients such as KidZania and Mapfre.',
-                'MAY 2017 - MARCH 2018 10 moths like Jr Designer at Mexican Mail Service (Digital campaigns development sent through Internal Comunication with a country scale).',
+                'MARCH 2020 - Current / Avon NoLa’s markets UX - UI Designer. Design, Graphical User Interfaces and marketing landing pages development. Testing and styles (css) supervisor.',
+                'APRIL 2018 - FEBRUARY / 2020 23 months like Praxis UX - UI Designer. Standards and User Interface Design; Front end Development including Jquery and Typescript for clients such as KidZania and Mapfre.',
+                'MAY 2017 - MARCH 2018 / 10 moths like Jr Designer at Mexican Mail Service. Digital campaigns development sent through Internal Comunication with a country scale.',
             ],
             button: false,
             label:'FIGMA PROTOTYPE',

@@ -7,7 +7,7 @@ import {
 import MenuItem from '@mui/material/MenuItem'
 import { LangContext } from '../../../MyAppRoutes/MyAppRoutes'
 import { useNavigate } from "react-router-dom"
-import cv from '../../../../assets/images/ecazaresc_lg_logo.png'
+import cv from '../../../../assets/images/Esteban_Cazares_Cruz_UX.pdf'
 import MenuIcon from '@mui/icons-material/Menu';
 
 export default function HelpMenu(props) {

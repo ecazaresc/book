@@ -10,7 +10,7 @@ import React, {
  } from 'react'
 import {Link} from 'react-router-dom'
 import { LangContext } from '../../MyAppRoutes/MyAppRoutes'
-import cv from '../../../assets/images/ecazaresc_lg_logo.png'
+import cv from '../../../assets/images/Esteban_Cazares_Cruz_UX.pdf'
 
 
 const Language = (props)=>{

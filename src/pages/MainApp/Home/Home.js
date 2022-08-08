@@ -18,7 +18,8 @@ import Submenu from './components/Submenu'
 import { LangContext } from '../../MyAppRoutes/MyAppRoutes'
 import style from './home.module.css'
 import image from '../../../assets/images/ecazaresc_lg_2.jpg'
-import cv from '../../../assets/images/ecazaresc_lg_2.jpg'
+import cv from '../../../assets/images/Esteban_Cazares_Cruz_UX.pdf'
+import bio from '../../../assets/images/ecazaresc_portfolio.jpg'
 import WhatsAppIcon from '@mui/icons-material/WhatsApp'
 import EmailIcon from '@mui/icons-material/Email'
 import DownloadIcon from '@mui/icons-material/Download'
@@ -103,9 +104,11 @@ const Home = (props)=> {
                         </Typography>
                         <Box sx={{display:'flex',alignItems:'center'}} className='fade fade3'>
                             <Box sx={{
-                                    width:'80px',
-                                    height:'80px',
-                                    bgcolor:'primary.main',
+                                    width:'110px',
+                                    height:'110px',
+                                    backgroundImage: `url(${bio})`,
+                                    backgroundPosition: 'center',
+                                    backgroundSize: 'cover',
                                     borderRadius:'50%',
                                     marginRight:'20px',
                                 }}></Box>
