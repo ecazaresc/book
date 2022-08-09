@@ -30,7 +30,7 @@ const Language = (props)=>{
                 <Grid item>
                     <Link to={'/o/role'} onClick={languagePickEn}><Button variant='text'>English</Button></Link>
                 </Grid>
-                <Grid item><Divider orientation="vertical" /></Grid>
+                <Grid sx={{display:{xs:'none', sm:'block'}}} item><Divider orientation="vertical" /></Grid>
                 <Grid item>
                     <Link to={'/o/role'} onClick={languagePickEs}><Button variant='text'>Español</Button></Link>
                 </Grid>

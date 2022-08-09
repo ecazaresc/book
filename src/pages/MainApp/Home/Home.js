@@ -85,7 +85,7 @@ const Home = (props)=> {
                 <Grid ref={testElement} item xs={12} sm={7} md={7}
                     sx={{
                         px: {
-                            xs:6,
+                            xs:5,
                             sm:7,
                             md:10,
                         },

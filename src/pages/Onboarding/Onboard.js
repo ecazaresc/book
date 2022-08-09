@@ -13,7 +13,7 @@ const Onboard = (props)=> {
         <Fragment>
             <Box sx={{
                     display:'flex',
-                    height:'100vh',
+                    minHeight:'100vh',
                     width:'100vw',
                     justifyContent:'center'
                 }}>
@@ -22,12 +22,12 @@ const Onboard = (props)=> {
                     flexDirection:'column',
                     width:'75vw',
                     p: {
-                        xs: 5,
+                        xs: 3,
                         md: 10,
                         lg: 20,
                     }
                     }}>
-                    <img style={{width:'210px'}} src={logo} alt={logo} /> 
+                    <img style={{width:'210px',mb:3}} src={logo} alt={logo} /> 
                     <span style={{flexGrow:'1'}}></span>
                     <Outlet/>
                     <span style={{flexGrow:'1'}}></span>
