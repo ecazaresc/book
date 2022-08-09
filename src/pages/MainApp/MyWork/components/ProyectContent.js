@@ -113,7 +113,7 @@ const ProyectContent = (props) => {
 
                 </Grid>
                 <Grid item xs={12} md={3}>
-                    <Box sx={{position:'sticky',top:'50px'}}>
+                    <Box sx={{position:'sticky',top:'50px', display:{xs:'none',sm:'block'}}}>
                         <MoreWorkOptions />
                     </Box>
                 </Grid>

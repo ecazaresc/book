@@ -100,7 +100,7 @@ const ProyectContainer = ({proyect,history,name,more})=> {
                         </Box>
                     </Grid>
                     <Grid item container xs={12} md={9} columnSpacing={3} sx={{px:3}}>
-                      <Grid item xs={12} sx={{mb:2,mt:20}}>
+                      <Grid item xs={12} sx={{mb:2,mt:10}}>
                         <Typography variant='h6' sx={{textAlign:'center'}}>{lang.more}</Typography>
                       </Grid>
                       <Grid item xs={12} sm>

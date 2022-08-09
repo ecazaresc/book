@@ -22,8 +22,8 @@ const Onboard = (props)=> {
                     flexDirection:'column',
                     width:'75vw',
                     p: {
-                        xs: 3,
-                        md: 10,
+                        xs: 1,
+                        md: 9,
                         lg: 20,
                     }
                     }}>
