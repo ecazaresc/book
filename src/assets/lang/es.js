@@ -20,7 +20,7 @@ let es = {
     ],
     onboard: {
         welcome:'Bienvenid@',
-        welcomeText:'Gracias por tu interés en mi trabajo, antes de empezar, elige tu idioma:',
+        welcomeText:'Gracias por tu interés en mi trabajo, antes de empezar, elija su idioma:',
         role:'Rol',
         roleText:'Cool, ahora dejame saber cual de estas opciones encaja mejor con tu perfil.',
         roleEngine:'ingenieria',

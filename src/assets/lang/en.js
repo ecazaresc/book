@@ -557,7 +557,7 @@ let en = {
         academyinfo: {
             title: 'Academy',
             bullets: [
-                'Degree at the Faculty of Arts and Design of the UNAM',
+                "Degree at UNAM's Arts and Design Faculty",
                 '3 years of elementary school at United States of America.',
                 'Course Human Centered Desgin and Human Centered Desgin:Prototype by +Acumen',
                 'Courses UX Introduction, User Needs assements and UX Fudamentals by edx.org and coursera.com',
