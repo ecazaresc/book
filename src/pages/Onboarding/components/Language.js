@@ -28,11 +28,11 @@ const Language = (props)=>{
             <Typography className={'fade'} variant='h3'>{lang.onboard.welcomeText}</Typography>
             <Grid container justifyContent='center' style={{animationDelay:'100ms',margin:'30px 0px'}} className={'fade'}>
                 <Grid item>
-                    <Link to={'/o/role'} onClick={languagePickEn}><Button variant='text'>English</Button></Link>
+                    <Link to={'/o/name-input'} onClick={languagePickEn}><Button variant='text'>English</Button></Link>
                 </Grid>
                 <Grid sx={{display:{xs:'none', sm:'block'}}} item><Divider orientation="vertical" /></Grid>
                 <Grid item>
-                    <Link to={'/o/role'} onClick={languagePickEs}><Button variant='text'>Español</Button></Link>
+                    <Link to={'/o/name-input'} onClick={languagePickEs}><Button variant='text'>Español</Button></Link>
                 </Grid>
             </Grid>
             <Typography style={{textAlign:'center'}} variant='body2'>{lang.onboard.cvdownload} <a className='link' href={cv} download='Esteban_Cazares_Cruz_Cv'>{lang.onboard.here}</a></Typography>

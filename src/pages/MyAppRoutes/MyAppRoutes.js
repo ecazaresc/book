@@ -5,7 +5,7 @@ import {
     Route,
 } from "react-router-dom"
 import Language from '../Onboarding/components/Language'
-import Role from '../Onboarding/components/Role'
+
 import NameInput from '../Onboarding/components/NameInput'
 import Greetings from '../Onboarding/components/Greetings'
 import ProyectContainer from '../MainApp/MyWork/components/ProyectContainer'
@@ -30,12 +30,9 @@ const MyAppRoutes = (props)=> {
     const [skipB, setSkipB] = useState(true)
     const [lang, setLang] = useState(en)
     const [name, setName] = useState(lang.guest)
-    const [role, setRole] = useState('recruiter')
+    const [role] = useState('recruiter')
     const [direction,setDirection] = useState(true)
     
-    const roleHandler = (data)=> {
-        setRole(data)
-    }
     const nameHandler = (data)=> {
         setName(data)
     }
@@ -102,7 +99,7 @@ const MyAppRoutes = (props)=> {
                                                     onSendLang={langHandler}
                                                     />}>
                         </Route>
-                        <Route path="/o/role" element={<Role onSendRole={roleHandler} />}></Route>
+                        
                         <Route path="/o/name-input" element={<NameInput onSendName={nameHandler} />}></Route>
                         <Route path="/o/greetings" element={<Greetings profile={name} />}></Route>
                     </Route>
