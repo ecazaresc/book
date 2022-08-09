@@ -6,7 +6,6 @@ import {
 } from "react-router-dom"
 import Language from '../Onboarding/components/Language'
 import Role from '../Onboarding/components/Role'
-import Onboard from '../Onboarding/Onboard'
 import NameInput from '../Onboarding/components/NameInput'
 import Greetings from '../Onboarding/components/Greetings'
 import ProyectContainer from '../MainApp/MyWork/components/ProyectContainer'
@@ -17,9 +16,11 @@ import { GetEn } from '../../assets/lang/en'
 import { GetEs } from '../../assets/lang/es'
 import AppTransition from '../AppTransition'
 import Test from '../Test'
+import LoadingPage from '../LoadingPage'
 
 const Home = React.lazy(() => import("../MainApp/Home"))
 const SihoApp = React.lazy(() => import("../SihoApp"))
+const Onboard = React.lazy(() => import("../Onboarding/Onboard"))
 
 export const LangContext = React.createContext()
 
@@ -94,7 +95,9 @@ const MyAppRoutes = (props)=> {
         <LangContext.Provider value={lang}>
             <Box sx={{width:'100vw',minHeight:'100vh',bgcolor:'background.default'}}>
                 <Routes>
-                    <Route path="/" element={<Onboard skipButton={skipB} />}>
+                    <Route path="/" element={<React.Suspense fallback={<LoadingPage />}>
+                                                    <Onboard skipButton={skipB} />
+                                                </React.Suspense>}>
                         <Route index element={<Language 
                                                     onSendLang={langHandler}
                                                     />}>
@@ -106,7 +109,7 @@ const MyAppRoutes = (props)=> {
                     <Route path="/test" element={<Test />}/>
                     <Route path="*" element={<NoMatch />}/>
                     <Route path="/home" element={<MainApp />}>
-                        <Route index element={<React.Suspense fallback={<>...</>}>
+                        <Route index element={<React.Suspense fallback={<LoadingPage />}>
                                                     <Home name={name} role={role} themeSend={(data)=>{props.themeSend(data)}} />
                                                 </React.Suspense>} />
                         <Route path='/home/w' element={<MyWork />} />
@@ -121,7 +124,7 @@ const MyAppRoutes = (props)=> {
                     </Route>
 
                     <Route path="/sihoApp/*" element={
-                        <React.Suspense fallback={<>...</>}>
+                        <React.Suspense fallback={<LoadingPage />}>
                             <SihoApp name={name} />
                         </React.Suspense>} />
                     <Route path="/transition" element={<AppTransition name={name} direction={direction} onSendDirection={(data)=>setDirection(data)} />}></Route>

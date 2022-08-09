@@ -13,6 +13,7 @@ let es = {
     leaveApp: 'te estamos llevando de regreso a mi book',
     noContent: 'No hay contenido para esta sección, intenta diseño',
     guest:'Invitado',
+    loading: 'Cargando...',
     categories: [
         'UX / UI',
         'Branding',

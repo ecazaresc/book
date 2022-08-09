@@ -23,9 +23,13 @@ const Onboard = (props)=> {
                     width:'75vw',
                     p: {
                         xs: 1,
+                        sm: 5,
                         md: 9,
                         lg: 20,
-                    }
+                    },
+                    pt: {
+                        xs: 5,
+                    },
                     }}>
                     <img style={{width:'210px',mb:3}} src={logo} alt={logo} /> 
                     <span style={{flexGrow:'1'}}></span>

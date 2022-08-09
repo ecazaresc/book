@@ -13,6 +13,7 @@ let en = {
     leaveApp: 'we are taking you back to my book',
     noContent: 'There is no content for this section, try design',
     guest:'Guest',
+    loading: 'Loading...',
     categories: [
         'UX / UI',
         'Branding',
@@ -557,7 +558,7 @@ let en = {
         academyinfo: {
             title: 'Academy',
             bullets: [
-                "Degree at UNAM's Arts and Design Faculty",
+                "Bachelor's degree at UNAM's Arts and Design Faculty",
                 '3 years of elementary school at United States of America.',
                 'Course Human Centered Desgin and Human Centered Desgin:Prototype by +Acumen',
                 'Courses UX Introduction, User Needs assements and UX Fudamentals by edx.org and coursera.com',
