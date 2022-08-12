@@ -10,9 +10,9 @@ import {
 } from '@mui/material';
 import ComputerIcon from '@mui/icons-material/Computer'
 import HomeIcon from '@mui/icons-material/Home'
+import ArrowBackIcon from '@mui/icons-material/ArrowBack'
 import { LangContext } from '../../MyAppRoutes/MyAppRoutes'
 import { useNavigate } from 'react-router-dom'
-import logo from '../../../assets/images/ecazaresc_lg_logo.png'
 
 
 function HideOnScroll(props) {
@@ -41,17 +41,21 @@ export default function ToolBarDesktop(props) {
             <AppBar>
             <Toolbar>
                     <Box sx={{ flexGrow: 1 }}>
-                      <img onClick={()=>{
-                          navigate('/home')
-                          document.body.scrollTop = 0
-                          document.documentElement.scrollTop = 0
-                      }} style={{width:'150px',marginLeft:'20px',cursor:'pointer'}} src={logo} alt='not found'/>
+                      <Button startIcon={<ArrowBackIcon />} 
+                              onClick={()=>{
+                                document.body.scrollTop = 0
+                                document.documentElement.scrollTop = 0
+                                props.history.back()
+                            }}
+                               variant='text'>
+                                {lang.back}
+                      </Button>
                     </Box>
                     <Button startIcon={<HomeIcon />} onClick={()=>{
-                            navigate('/home')
-                            document.body.scrollTop = 0
-                            document.documentElement.scrollTop = 0
-                        }} variant='text'>{lang.home}
+                              navigate('/home')
+                              document.body.scrollTop = 0
+                              document.documentElement.scrollTop = 0
+                          }} variant='text'>{lang.home}
                     </Button>
                     <Button startIcon={<ComputerIcon />} variant='text' onClick={()=>{
                             navigate('/home/w')

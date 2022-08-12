@@ -4,13 +4,12 @@ import {
     Grid,
     Tabs,
     Tab,
-    Button,
     Typography,
  } from '@mui/material'
- import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import ProyectContent from './ProyectContent'
 import { LangContext } from '../../../MyAppRoutes/MyAppRoutes'
 import ProyectBox from './ProyectBox'
+import ToolBarDesktop from '../../components/ToolBarDesktop'
 
  function TabPanel(props) {
     const { children, value, index, ...other } = props
@@ -45,25 +44,18 @@ const ProyectContainer = ({proyect,history,name,more})=> {
     
     return (
         <Fragment>
-            <Button startIcon={<ArrowBackIcon />}
-              sx={{
-                position:'fixed',
-                top:'10px',
-                left:'5px',
-                zIndex:'10'
-              }} 
-              variant='contained'
-              onClick={()=>{
-                document.body.scrollTop = 0
-                document.documentElement.scrollTop = 0
-                history.back()
-            }}>
-              {lang.back}
-            </Button>
+          <Box sx={{
+                display:{
+                    xs:'none',
+                    sm:'block',
+                }
+            }} >
+                <ToolBarDesktop history={history} />
+            </Box>
             <Box sx={{bgcolor:'background.default'}}>
                 <Box sx={{
                     width:'100vw',
-                    height:'40vh',
+                    height:'45vh',
                     backgroundColor:'#cacaca',
                     backgroundImage:`url(${proyect.img})`,
                     backgroundSize:'cover',

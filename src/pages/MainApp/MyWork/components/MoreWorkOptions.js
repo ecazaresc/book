@@ -25,16 +25,10 @@ const MoreWorkOptions = ()=>{
             '& a':{
                 fontFamily:'MontserratBold',
                 display:'block',
-                my:1,
             }
         }}>
             <Typography variant='h6'>{lang.mywork.moreWork}</Typography>
-            <Box sx={styleButton} onClick={()=>{
-                    navigate('/home/w')
-                    document.body.scrollTop = 0
-                    document.documentElement.scrollTop = 0
-                }}>{lang.restOfMyWork}
-            </Box>
+            
             <Box sx={styleButton} onClick={
                 ()=>{
                     navigate('/home/w/siho')
@@ -48,6 +42,12 @@ const MoreWorkOptions = ()=>{
                     document.body.scrollTop = 0
                     document.documentElement.scrollTop = 0
                 }}>{lang.mywork.book.design.proyectName}
+            </Box>
+            <Box sx={styleButton} onClick={()=>{
+                    navigate('/home/w/anew')
+                    document.body.scrollTop = 0
+                    document.documentElement.scrollTop = 0
+                }}>{lang.mywork.anew.design.proyectName}
             </Box>
             <Box sx={styleButton} onClick={()=>{
                     navigate('/home')

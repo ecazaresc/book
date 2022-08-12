@@ -4,20 +4,27 @@ import {
     Box,
     Grid,
     Breadcrumbs,
-    Button,
 } from '@mui/material'
 import { LangContext } from '../../MyAppRoutes/MyAppRoutes'
-import { Link, useNavigate } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import ProyectBoxContainer from './components/ProyectBoxContainer'
 import ScrollCategory from './components/ScrollCategory'
-import HomeIcon from '@mui/icons-material/Home'
 import style from '../Home/home.module.css'
+import ToolBarDesktop from '../components/ToolBarDesktop'
 
-export const MyWork = ()=> {
+export const MyWork = ({history})=> {
     const lang = useContext(LangContext)
-    const navigate = useNavigate()
+    
     return (
         <Fragment>
+            <Box sx={{
+                display:{
+                    xs:'none',
+                    sm:'block',
+                }
+            }} >
+                <ToolBarDesktop history={history} />
+            </Box>
             
             <Box sx={{
                 px: {
@@ -27,29 +34,12 @@ export const MyWork = ()=> {
                     lg: 15,
                 },
                 pt: {
-                    xs: 7,
-                    md: 15,
+                    xs: 4,
+                    md: 8,
                 },
                 pb:20,
             }}>
-                <Button startIcon={<HomeIcon />}
-                    sx={{
-                        position:'absolute',
-                        top:'20px',
-                        left:'20px',
-                        display:{
-                            xs:'none',
-                            sm:'flex',
-                        }
-                    }} 
-                    variant='text'
-                    onClick={()=>{
-                        navigate('/home')
-                        document.body.scrollTop = 0
-                        document.documentElement.scrollTop = 0
-                    }}>
-                    {lang.home}
-                </Button>
+                
                 <Grid container columnSpacing={0}>
                     <Grid item xs={12} lg={10}>
                         <Typography className='fade' variant="h2" sx={{mb:2,textAlign:'center'}}>

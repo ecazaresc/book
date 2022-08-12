@@ -204,13 +204,20 @@ let theme = (mode) => ({
                   ...(mode === 'light'
                   ? {
                       backgroundColor:grey[100],
+                      borderBottom: 'solid 1px #d2d2d2',
                     }
                   : {
                       backgroundColor:grey[800],
                   }),
                 },
             },
-            
+        },
+        MuiPaper: {
+            styleOverrides: {
+                root: {
+                  boxShadow: 'none',
+                },
+            },
         },
        
         MuiBottomNavigation: {

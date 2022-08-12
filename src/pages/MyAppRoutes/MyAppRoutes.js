@@ -109,7 +109,7 @@ const MyAppRoutes = (props)=> {
                         <Route index element={<React.Suspense fallback={<LoadingPage />}>
                                                     <Home name={name} role={role} themeSend={(data)=>{props.themeSend(data)}} />
                                                 </React.Suspense>} />
-                        <Route path='/home/w' element={<MyWork />} />
+                        <Route path='/home/w' element={<MyWork history={props.history} />} />
                         { proyectsArray.map((proyectSelected)=>{
                             return(
                                 <Route key={proyectSelected.mainProyect} path={'/home/w/' + proyectSelected.mainProyect.target} element={<ProyectContainer history={props.history}
