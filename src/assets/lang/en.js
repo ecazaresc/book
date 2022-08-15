@@ -67,7 +67,7 @@ let en = {
                     [
                         {
                             subtitle: 'Survey',
-                            body: 'Quantitative reasearch and numercial data helped us understand the overall problems of our proyect. The survey was our best tool for this purposes. Example:',
+                            body: 'Quantitative research and numercial data helped us understand the overall problems of our proyect. The survey was our best tool for this purposes. Example:',
                         },
                         {
                             subtitle: 'Interview',
@@ -547,7 +547,7 @@ let en = {
         experienceinfo: {
             title: 'Profesional experience',
             bullets: [
-                'MARCH 2020 - Current / Avon NoLa’s markets UX - UI Designer. Design, Graphical User Interfaces and marketing landing pages development. Testing and styles (css) supervisor.',
+                'MARCH 2020 - Current / Avon NoLa’s markets UX - UI Designer. User Interface and landing page design and development. Testing and styles (css) supervisor.',
                 'APRIL 2018 - FEBRUARY / 2020 23 months like Praxis UX - UI Designer. Standards and User Interface Design; Front end Development including Jquery and Typescript for clients such as KidZania and Mapfre.',
                 'MAY 2017 - MARCH 2018 / 10 moths like Jr Designer at Mexican Mail Service. Digital campaigns development sent through Internal Comunication with a country scale.',
             ],
